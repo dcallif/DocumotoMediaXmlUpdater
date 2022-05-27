@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Media xmlns="http://digabit.com/documoto/media/1.4" xmlns:xs="http://www.w3.org/2001/XMLSchema" identifier="TEST-BOOK" mediaType="Book" template="false" tenantKey="CALLIFTEST">
+    <Translation description="" locale="en" name="Book for Testing"/>
+    <Chapter externalUri="" openInNewBrowserWindow="false" pageFile="">
+        <Translation description="" locale="en" name="Chapter 1"/>
+        <Chapter externalUri="" openInNewBrowserWindow="false" pageFile="">
+            <Translation description="" locale="en" name="Sub-Chapter 1"/>
+            <Page hashKey="CALLIFTEST-d1261d835d76137637c6600a7b41f242" pageFile="7fa39574ec2767009cc6d540470eb146.wrapper.svg">
+                <Translation description="" locale="en" name="Grease Pump"/>
+                <SecondaryPageFile displayOrder="1" fileName="429715fdbd8bf483fbaa7ba919c8ece7.wrapper.svg"/>
+                <Tag name="AssemblyNumber" value="55076646"/>
+                <Tag name="DrawingNumber" value="55076646"/>
+                <Tag name="DrawingsHash" value="21e8a59108fbb1f6dffeaf66adea1f75"/>
+                <Tag name="ExternalUniqueKey" value="79f267e488aa789a7d6f3de0d1ab9c5e"/>
+                <Tag name="Hash Key Tag" value="d1261d835d76137637c6600a7b41f242"/>
+                <Tag name="HotpointCode" value="55076646_1.png:B"/>
+                <Tag name="HotpointCode" value="55076646_2.png:B"/>
+                <Tag name="MigrationUniqueKey" value="d1261d835d76137637c6600a7b41f242"/>
+                <Tag name="OriginalImageFile" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="c:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019r1/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="f:/Digabit/Sandvik/SparePort2/Tampere/SeptemberRollingMigration/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageHash" value="7fa39574ec2767009cc6d540470eb146"/>
+                <Tag name="OriginalImageHashes" value="7fa39574ec2767009cc6d540470eb146 429715fdbd8bf483fbaa7ba919c8ece7"/>
+                <Tag name="PageFileRename" value="429715fdbd8bf483fbaa7ba919c8ece7.svg:429715fdbd8bf483fbaa7ba919c8ece7.wrapper.svg"/>
+                <Tag name="PageFileRename" value="78cc9994f15d486717bafe756246823f.svg:78cc9994f15d486717bafe756246823f.svg"/>
+                <Tag name="PageFileRename" value="7fa39574ec2767009cc6d540470eb146.svg:7fa39574ec2767009cc6d540470eb146.wrapper.svg"/>
+                <Tag name="PageFileRename" value="d227d8509f4f10d2f213babfc35df33c.svg:d227d8509f4f10d2f213babfc35df33c.svg"/>
+                <Tag name="PageItemAttributesHash" value="bcd35b939e9ce79395cbfb23dafc31bd"/>
+                <Tag name="PageItemNumbersHash" value="cf7039f3fd18e0a1a879c43cf6b33ec4"/>
+                <Tag name="PageItemsHash" value="1eb21c7a3cbc1685b8d518404c7f0138"/>
+                <Tag name="Revision" value="A"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Structure/54367/55076646A.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Structure/60673/55076646A.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Structure/43332/55076646A.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Structure/62641/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Structure/14094/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Structure/56264/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Structure/41118/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Structure/61450/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Structure/120A55612-1/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Structure/120A65068-1/55076646A.xml"/>
+                <Tag name="Source File" value="c:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration/Content/117A39407-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/Content/117A33210-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/Content/119A57344-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019r1/Content/15624/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/Content/118D52504-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/Content/118D52855-1/55076646A.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/Content/118A55619-1/55076646A.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/Content/118D53738-1/55076646A.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/SeptemberRollingMigration/Content/116D31428-1/55076646A.xml"/>
+                <Tag name="SparePartDocument" value="TRUE"/>
+                <Tag name="SparePartIndicator" value="Spare Part"/>
+                <Part discountedPrice="0.0" instanceId="0" item="1" orderable="true" orderableForPage="true" partNumber="55076701" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="-" locale="en" name="Cylinder, Air"/>
+                    <Translation description="" locale="fi" name="Ilmasylinteri"/>
+                    <Translation description="-" locale="ru" name="Цилиндр, воздушный"/>
+                    <Translation description="" locale="fr" name="VERIN PNEUMATIQUE"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="9212274efb55c83b4e7667522625c984"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="1" item="2" orderable="true" orderableForPage="true" partNumber="55076703" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="fi" name="Männäntiiviste"/>
+                    <Translation description="" locale="de" name="Kolbendichtung"/>
+                    <Translation description="Уплотнение воздушного поршня" locale="ru" name="Уплотнение, поршень"/>
+                    <Translation description="" locale="fr" name="JOINT DE PISTON"/>
+                    <Translation description="Air piston Packing" locale="en" name="Seal, Piston"/>
+                    <Translation description="" locale="sv" name="Kolvtätning"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="b62c7f1a7f9ea4a5eaeab375506601e1"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="2" item="3" orderable="true" orderableForPage="true" partNumber="55076704" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="Ходовой башмак" locale="ru" name="Соединительная муфта"/>
+                    <Translation description="" locale="fr" name="COUPLEUR"/>
+                    <Translation description="" locale="fi" name="Kytkentäkappale"/>
+                    <Translation description="" locale="de" name="Kuppler"/>
+                    <Translation description="Trip Shoe" locale="en" name="Coupler"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="3096f53eef3c0f358aaa134fd4839a79"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="3" item="4" orderable="true" orderableForPage="true" partNumber="55076705" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="Тяга переключения" locale="ru" name="Тяга, рулевое управление"/>
+                    <Translation description="" locale="en" name="Tie Rod, Steering"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="a8a30ceacf71940407d1da0fa4b72b0a"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="4" item="5" orderable="true" orderableForPage="true" partNumber="55076706" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="Уплотнительная шайба" locale="ru" name="Шайба, уплотнение"/>
+                    <Translation description="Packing washer" locale="en" name="Washer, Seal"/>
+                    <Translation description="" locale="fr" name="RONDELLE JOINT (BAGUE BS)"/>
+                    <Translation description="" locale="fi" name="Tiivistealuslaatta"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="189bfea6562206be0ed4301645a5e039"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="5" item="6" orderable="true" orderableForPage="true" partNumber="55076707" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="fi" name="Levy"/>
+                    <Translation description="" locale="de" name="Schild"/>
+                    <Translation description="" locale="sv" name="Plåt"/>
+                    <Translation description="Пластина переключения" locale="ru" name="Пластина"/>
+                    <Translation description="Toggle plate" locale="en" name="Plate"/>
+                    <Translation description="" locale="fr" name="PLAQUE"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="54af814d94ce48e69fff299b56995a8c"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="6" item="7" orderable="true" orderableForPage="true" partNumber="55076709" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="fi" name="Tiivistysaine"/>
+                    <Translation description="" locale="de" name="Dichtungsmittel"/>
+                    <Translation description="Тяга переключения, уплотнение" locale="ru" name="Герметик"/>
+                    <Translation description="" locale="fr" name="EMBALLAGE"/>
+                    <Translation description="Trip rod packing" locale="en" name="Sealant"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="4795d4c4049bda505065243004870f47"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+            </Page>
+        </Chapter>
+        <Chapter externalUri="" openInNewBrowserWindow="false" pageFile="">
+            <Translation description="" locale="en" name="Sub-Chapter 2"/>
+            <Page hashKey="CALLIFTEST-d1261d835d76137637c6600a7b41f242" pageFile="7fa39574ec2767009cc6d540470eb146.wrapper.svg">
+                <Translation description="" locale="en" name="Grease Pump"/>
+                <SecondaryPageFile displayOrder="1" fileName="429715fdbd8bf483fbaa7ba919c8ece7.wrapper.svg"/>
+                <Tag name="AssemblyNumber" value="55076646"/>
+                <Tag name="DrawingNumber" value="55076646"/>
+                <Tag name="DrawingsHash" value="21e8a59108fbb1f6dffeaf66adea1f75"/>
+                <Tag name="ExternalUniqueKey" value="79f267e488aa789a7d6f3de0d1ab9c5e"/>
+                <Tag name="Hash Key Tag" value="d1261d835d76137637c6600a7b41f242"/>
+                <Tag name="HotpointCode" value="55076646_1.png:B"/>
+                <Tag name="HotpointCode" value="55076646_2.png:B"/>
+                <Tag name="MigrationUniqueKey" value="d1261d835d76137637c6600a7b41f242"/>
+                <Tag name="OriginalImageFile" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="c:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019r1/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageFile" value="f:/Digabit/Sandvik/SparePort2/Tampere/SeptemberRollingMigration/drawings/55076646_1.svg"/>
+                <Tag name="OriginalImageHash" value="7fa39574ec2767009cc6d540470eb146"/>
+                <Tag name="OriginalImageHashes" value="7fa39574ec2767009cc6d540470eb146 429715fdbd8bf483fbaa7ba919c8ece7"/>
+                <Tag name="PageFileRename" value="429715fdbd8bf483fbaa7ba919c8ece7.svg:429715fdbd8bf483fbaa7ba919c8ece7.wrapper.svg"/>
+                <Tag name="PageFileRename" value="78cc9994f15d486717bafe756246823f.svg:78cc9994f15d486717bafe756246823f.svg"/>
+                <Tag name="PageFileRename" value="7fa39574ec2767009cc6d540470eb146.svg:7fa39574ec2767009cc6d540470eb146.wrapper.svg"/>
+                <Tag name="PageFileRename" value="d227d8509f4f10d2f213babfc35df33c.svg:d227d8509f4f10d2f213babfc35df33c.svg"/>
+                <Tag name="PageItemAttributesHash" value="bcd35b939e9ce79395cbfb23dafc31bd"/>
+                <Tag name="PageItemNumbersHash" value="cf7039f3fd18e0a1a879c43cf6b33ec4"/>
+                <Tag name="PageItemsHash" value="1eb21c7a3cbc1685b8d518404c7f0138"/>
+                <Tag name="Revision" value="A"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Structure/54367/55076646A.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Structure/60673/55076646A.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Structure/43332/55076646A.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Structure/62641/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Structure/14094/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Structure/56264/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Structure/41118/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Structure/61450/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Structure/120A55612-1/55076646A.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Structure/120A65068-1/55076646A.xml"/>
+                <Tag name="Source File" value="c:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration/Content/117A39407-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/Content/117A33210-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/Content/119A57344-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019r1/Content/15624/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/Content/118D52504-1/55076646A.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/Content/118D52855-1/55076646A.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/Content/118A55619-1/55076646A.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/Content/118D53738-1/55076646A.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/SeptemberRollingMigration/Content/116D31428-1/55076646A.xml"/>
+                <Tag name="SparePartDocument" value="TRUE"/>
+                <Tag name="SparePartIndicator" value="Spare Part"/>
+                <Part discountedPrice="0.0" instanceId="0" item="1" orderable="true" orderableForPage="true" partNumber="55076701" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="-" locale="en" name="Cylinder, Air"/>
+                    <Translation description="" locale="fi" name="Ilmasylinteri"/>
+                    <Translation description="-" locale="ru" name="Цилиндр, воздушный"/>
+                    <Translation description="" locale="fr" name="VERIN PNEUMATIQUE"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="9212274efb55c83b4e7667522625c984"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="1" item="2" orderable="true" orderableForPage="true" partNumber="55076703" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="fi" name="Männäntiiviste"/>
+                    <Translation description="" locale="de" name="Kolbendichtung"/>
+                    <Translation description="Уплотнение воздушного поршня" locale="ru" name="Уплотнение, поршень"/>
+                    <Translation description="" locale="fr" name="JOINT DE PISTON"/>
+                    <Translation description="Air piston Packing" locale="en" name="Seal, Piston"/>
+                    <Translation description="" locale="sv" name="Kolvtätning"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="b62c7f1a7f9ea4a5eaeab375506601e1"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="2" item="3" orderable="true" orderableForPage="true" partNumber="55076704" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="Ходовой башмак" locale="ru" name="Соединительная муфта"/>
+                    <Translation description="" locale="fr" name="COUPLEUR"/>
+                    <Translation description="" locale="fi" name="Kytkentäkappale"/>
+                    <Translation description="" locale="de" name="Kuppler"/>
+                    <Translation description="Trip Shoe" locale="en" name="Coupler"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="3096f53eef3c0f358aaa134fd4839a79"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="3" item="4" orderable="true" orderableForPage="true" partNumber="55076705" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="Тяга переключения" locale="ru" name="Тяга, рулевое управление"/>
+                    <Translation description="" locale="en" name="Tie Rod, Steering"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="a8a30ceacf71940407d1da0fa4b72b0a"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="4" item="5" orderable="true" orderableForPage="true" partNumber="55076706" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="Уплотнительная шайба" locale="ru" name="Шайба, уплотнение"/>
+                    <Translation description="Packing washer" locale="en" name="Washer, Seal"/>
+                    <Translation description="" locale="fr" name="RONDELLE JOINT (BAGUE BS)"/>
+                    <Translation description="" locale="fi" name="Tiivistealuslaatta"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="189bfea6562206be0ed4301645a5e039"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="5" item="6" orderable="true" orderableForPage="true" partNumber="55076707" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="de" name="Schild"/>
+                    <Translation description="" locale="fi" name="Levy"/>
+                    <Translation description="" locale="sv" name="Plåt"/>
+                    <Translation description="Пластина переключения" locale="ru" name="Пластина"/>
+                    <Translation description="Toggle plate" locale="en" name="Plate"/>
+                    <Translation description="" locale="fr" name="PLAQUE"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="54af814d94ce48e69fff299b56995a8c"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="6" item="7" orderable="true" orderableForPage="true" partNumber="55076709" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="fi" name="Tiivistysaine"/>
+                    <Translation description="" locale="de" name="Dichtungsmittel"/>
+                    <Translation description="Тяга переключения, уплотнение" locale="ru" name="Герметик"/>
+                    <Translation description="" locale="fr" name="EMBALLAGE"/>
+                    <Translation description="Trip rod packing" locale="en" name="Sealant"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="4795d4c4049bda505065243004870f47"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="@"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+            </Page>
+            <Page hashKey="CALLIFTEST-1f511ba09c9af5a7fff7a66e2dfa23e4" pageFile="459d7c7b0b4342cc0a12ed8aff214bfe.wrapper.svg">
+                <Translation description="" locale="fi" name="Paineilman huoltoyksikkÃ¶"/>
+                <Translation description="" locale="fr" name="GROUPE COMPRESSEUR"/>
+                <Translation description="" locale="en" name="Service Unit, Air"/>
+                <Tag name="AssemblyNumber" value="55076157"/>
+                <Tag name="DrawingNumber" value="55076157"/>
+                <Tag name="DrawingNumber" value="NA"/>
+                <Tag name="DrawingsHash" value="34e3f83c8e14e344f99d38fd9c4c44da"/>
+                <Tag name="ExternalUniqueKey" value="7672e5dc14a853a9f351e0d0056917bf"/>
+                <Tag name="Hash Key Tag" value="1f511ba09c9af5a7fff7a66e2dfa23e4"/>
+                <Tag name="HotpointCode" value="55076157_1.png:Z"/>
+                <Tag name="MigrationUniqueKey" value="1f511ba09c9af5a7fff7a66e2dfa23e4"/>
+                <Tag name="MigrationUniqueKey" value="88eebebf79e13dbdd291e0d364996504"/>
+                <Tag name="OriginalImageFile" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="c:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration/drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019r1/drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageFile" value="f:/Digabit/Sandvik/SparePort2/Tampere/SeptemberRollingMigration/drawings/55076157_1.svg"/>
+                <Tag name="OriginalImageHash" value="459d7c7b0b4342cc0a12ed8aff214bfe"/>
+                <Tag name="OriginalImageHash" value="459d7c7b0b4342cc0a12ed8aff214bfe:55076157_1.svg"/>
+                <Tag name="OriginalImageHashes" value="459d7c7b0b4342cc0a12ed8aff214bfe"/>
+                <Tag name="PageFileRename" value="459d7c7b0b4342cc0a12ed8aff214bfe.svg:459d7c7b0b4342cc0a12ed8aff214bfe.wrapper.svg"/>
+                <Tag name="PageFileRename" value="55076157_1.svg:4069204e18b6d600dba22aa067349083.svg"/>
+                <Tag name="PageFileRename" value="55076157_1.svg:a87d37583f6874bd39f881dbee1c8461.svg"/>
+                <Tag name="PageFileRename" value="a87d37583f6874bd39f881dbee1c8461.svg:a87d37583f6874bd39f881dbee1c8461.svg"/>
+                <Tag name="PageItemAttributesHash" value="17453fbd9477ae0a4c94108bb23b185e"/>
+                <Tag name="PageItemAttributesHash" value="1c1504b4e2c4f3202f445f3a4d8b2706"/>
+                <Tag name="PageItemAttributesHash" value="29890c524d118271f8f939ce3f504e70"/>
+                <Tag name="PageItemAttributesHash" value="43a9bd1e7f516f49674da5d71e5d59d8"/>
+                <Tag name="PageItemAttributesHash" value="62374b5c0b79ad0aec238458a2235fc6"/>
+                <Tag name="PageItemAttributesHash" value="d2a4292d9e9fdce47f16de5d8a109195"/>
+                <Tag name="PageItemAttributesHash" value="ea75583dbb502dd36c5935f71f0e4eec"/>
+                <Tag name="PageItemNumbersHash" value="ff659fabd767af8e3b9eee57bde03699"/>
+                <Tag name="PageItemsHash" value="1c1504b4e2c4f3202f445f3a4d8b2706"/>
+                <Tag name="Revision" value="@"/>
+                <Tag name="Source File" value="D:/Customers/Sandvik/Source Content for Migrations/SP2/FullSet/Tampere/102D5177-1/55076157.xml"/>
+                <Tag name="Source File" value="D:/Customers/Sandvik/Source Content for Migrations/SP2/FullSet/Tampere/106D8412-1/55076157.xml"/>
+                <Tag name="Source File" value="D:/Customers/Sandvik/Source Content for Migrations/SP2/FullSet/Tampere/113D28686-1/55076157.xml"/>
+                <Tag name="Source File" value="D:/Customers/Sandvik/Source Content for Migrations/SP2/On-Going Loads/August Tampere/Content/115B30423-1/55076157.xml"/>
+                <Tag name="Source File" value="D:/Customers/Sandvik/Source Content for Migrations/SP2/On-Going Loads/September/September Tampere/Content/116A43403-1/55076157.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Structure/54367/55076157.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_5/Tampere SP2 export February 2021/Structure/60673/55076157.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Structure/43332/55076157.xml"/>
+                <Tag name="Source File" value="E:/Documoto 2021/Sandvik/SparePort2/tampere/Priority_6/Tampere SP2 exports May 2021/Structure/63548/55076157.xml"/>
+                <Tag name="Source File" value="G:/Digabit/Sandvik/Tampere_Jan_Rolling/TRE_Rolling_11122017/117A50960-1/55076157.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Structure/14094/55076157.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SFDR + Recently added serial numbers SP2 export November 2019/Structure/56264/55076157.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Structure/41118/55076157.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2/tampere/Tampere SP2 export April 2020/Structure/61450/55076157.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Structure/120A55612-1/55076157.xml"/>
+                <Tag name="Source File" value="I:/Documoto2020/Sandvik/SparePort2_q4_2020/tampere/Priority_4/Tampere SP2 Export September 2020/Structure/120A65068-1/55076157.xml"/>
+                <Tag name="Source File" value="K:/Sandvik/RollingConversions/July2017/SparePort2/Tampere/SourceContent/Content/116A41996-1/55076157.xml"/>
+                <Tag name="Source File" value="N:/sandvik/Aug_Sep_Rolling/Tampere/Content/116D44266-1/55076157.xml"/>
+                <Tag name="Source File" value="c:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration/Content/117A39407-1/55076157.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/Content/117A33210-1/55076157.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019f1/Content/119A57344-1/55076157.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/2019r1/Content/15624/55076157.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/Content/118D52504-1/55076157.xml"/>
+                <Tag name="Source File" value="e:/Digabit/Sandvik/SparePort2/Tampere/JuneJulyRollingMigration_55Redo/Content/118D52855-1/55076157.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/Content/118A55619-1/55076157.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/NovemberRollingMigration/Content/118D53738-1/55076157.xml"/>
+                <Tag name="Source File" value="f:/Digabit/Sandvik/SparePort2/Tampere/SeptemberRollingMigration/Content/116D31428-1/55076157.xml"/>
+                <Tag name="SparePartDescription" value="-"/>
+                <Tag name="SparePartDocument" value="TRUE"/>
+                <Tag name="SparePartDocument" value="true"/>
+                <Tag name="SparePartIndicator" value="Spare Part"/>
+                <Tag name="SparePartIndicator" value="Spare part"/>
+                <Tag name="batchId" value="1576236509840"/>
+                <Tag name="batchId" value="1577107415252"/>
+                <Tag name="batchId" value="1581070234195"/>
+                <Tag name="batchId" value="1582269343220"/>
+                <Tag name="batchId" value="1582706169062"/>
+                <Tag name="batchId" value="1583729787276"/>
+                <Tag name="batchId" value="1587984029606"/>
+                <Tag name="batchId" value="1588651344402"/>
+                <Tag name="batchId" value="1610380253"/>
+                <Tag name="batchId" value="1610964384"/>
+                <Tag name="batchId" value="1610971038"/>
+                <Tag name="batchId" value="jr2104191521"/>
+                <Tag name="siteOriginId" value="518175472"/>
+                <Part discountedPrice="0.0" instanceId="0" item="1*" orderable="true" orderableForPage="true" partNumber="55052168" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="fr" name="SEPARATEUR D'EAU"/>
+                    <Translation description="1/4&quot; регулятор фильтра, в комплекте манометр" locale="ru" name="Водоотделитель"/>
+                    <Translation description="" locale="fi" name="Vedenerotin"/>
+                    <Translation description="1/4 in Filter regulator, c.w. pressure gauge" locale="en" name="Trap, Water"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="5fe837e41defb1010e0fd2aec2b4e7e0"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="A"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+                <Part discountedPrice="0.0" instanceId="1" item="2*" orderable="true" orderableForPage="true" partNumber="81344809" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+                    <Translation description="" locale="sv" name="Kulventil"/>
+                    <Translation description="2/2, p_max 25 bar" locale="en" name="Valve, Ball"/>
+                    <Translation description="2/2, p_макс 25 бар" locale="ru" name="Клапан, шаровой"/>
+                    <Translation description="" locale="de" name="Kugelhahn"/>
+                    <Translation description="2/2, p_máx 25 bar" locale="es" name="Válvula, bola"/>
+                    <Translation description="" locale="fr" name="robinet à boisseau sphérique"/>
+                    <Translation description="" locale="fi" name="Palloventtiili"/>
+                    <Tag name="SparePartDescription" value="PMAX=30BAR"/>
+                    <Tag isLocalToPage="true" name="PartAttributesHash" value="3eaa8232752065836fcc1f39dea76565"/>
+                    <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+                    <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+                    <Tag isLocalToPage="true" name="Revision" value="C"/>
+                    <Tag isLocalToPage="true" name="SparePartDocument" value="true"/>
+                    <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare Part"/>
+                    <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+                    <Tag isLocalToPage="true" name="Weight" value="0"/>
+                </Part>
+            </Page>
+        </Chapter>
+    </Chapter>
+    <Page hashKey="CALLIFTEST-1fd0e996810711ec90f2df33757a02b7" pageFile="8a45f82d95d43d2adf6450e82933f275.wrapper.svg">
+        <Translation description="" locale="en" name="Signs And Safety Labels Assembly"/>
+        <SecondaryPageFile displayOrder="12" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_12.svg"/>
+        <SecondaryPageFile displayOrder="6" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_6.svg"/>
+        <SecondaryPageFile displayOrder="19" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_19.svg"/>
+        <SecondaryPageFile displayOrder="14" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_14.svg"/>
+        <SecondaryPageFile displayOrder="17" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_17.svg"/>
+        <SecondaryPageFile displayOrder="9" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_9.svg"/>
+        <SecondaryPageFile displayOrder="22" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_22.svg"/>
+        <SecondaryPageFile displayOrder="11" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_11.svg"/>
+        <SecondaryPageFile displayOrder="7" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_7.svg"/>
+        <SecondaryPageFile displayOrder="1" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_1.svg"/>
+        <SecondaryPageFile displayOrder="20" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_20.svg"/>
+        <SecondaryPageFile displayOrder="3" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_3.svg"/>
+        <SecondaryPageFile displayOrder="18" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_18.svg"/>
+        <SecondaryPageFile displayOrder="13" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_13.svg"/>
+        <SecondaryPageFile displayOrder="5" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_5.svg"/>
+        <SecondaryPageFile displayOrder="24" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_24.svg"/>
+        <SecondaryPageFile displayOrder="16" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_16.svg"/>
+        <SecondaryPageFile displayOrder="15" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_15.svg"/>
+        <SecondaryPageFile displayOrder="10" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_10.svg"/>
+        <SecondaryPageFile displayOrder="8" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_8.svg"/>
+        <SecondaryPageFile displayOrder="4" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_4.svg"/>
+        <SecondaryPageFile displayOrder="23" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_23.svg"/>
+        <SecondaryPageFile displayOrder="2" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_2.svg"/>
+        <SecondaryPageFile displayOrder="21" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_21.svg"/>
+        <Tag name="AssemblyNumber" value="64620646"/>
+        <Tag name="DrawingNumber" value="64620642/I"/>
+        <Tag name="DrawingsHash" value="b350a5aaf4ba3c1d2a2d5e56352277bf"/>
+        <Tag name="ExternalUniqueKey" value="539ccf8960d9a74ff234475080afc9f7"/>
+        <Tag name="Hash Key Tag" value="1fd0e996810711ec90f2df33757a02b7"/>
+        <Tag name="OriginalImageHash" value="8a45f82d95d43d2adf6450e82933f275"/>
+        <Tag name="OriginalImageHashes" value="8a45f82d95d43d2adf6450e82933f275 6ddb66e03b5ed617e2ceb45a6d69fcaf 78db862b1cc9dddc3d6dfd17e80ebcef 5fd7c8f85a02b4d33c5a16d6d25a2ed2 35067ea270761aef2129f175087c8811 7eee63e22912f7a92cc1c419fc1384eb 8fd4278044a860e2eff3bdbe066006af da72cf6b3602e8238b21810fe504e42b 9e7b7cf42b7b65ba4eb01a6726259d5d aa45bfe77607d00c3021aaa82d35d23c 80e060567e7dd9e8ba3f457077ee13b5 0faf579f2de831a9f85283ade4129cf9 64b99e7ac0afc1c5cf18c2496a41f5ab a714f1c43b409313a7cb9a2f60b6ab2a cffe0612d628c8af359abc779111c775 8e25539558fd8408d02fa960213708ea 8a643bbb315536b76d13ebe401ee4503 d090a0d1919a7245c443b2e65417aee5 58af44767d48a6bb0c041f7806b9d855 eb5875905c1a2da7aa7423829d0801d8 15f962aa8e13c74731602645e0eafaa0 690999c245c10bdd13b14ffca015976c 6660512d88b745f35b6e408c407f6c8b 11a4fdcac74172a339b6a13b0824f296 fc2ca421e550a825de9e49342f3b3b3d"/>
+        <Tag name="PageItemAttributesHash" value="887ba9856f79d253b875cfc618f854e4"/>
+        <Tag name="PageItemNumbersHash" value="2a1dfcc82a6ca5d0059139c3db185873"/>
+        <Tag name="Revision" value="I"/>
+        <Tag name="SparePartDescription" value="TH430 - Russian"/>
+        <Tag name="SparePartDocument" value="true"/>
+        <Tag name="SparePartIndicator" value="Not spare part"/>
+        <Tag name="batchId" value="1638877488"/>
+        <Tag name="siteOriginId" value="518175472"/>
+        <Part discountedPrice="0.0" instanceId="1" item="4" orderable="true" orderableForPage="true" partNumber="BG00406209" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00406209/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Field of vision"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="2" item="5" orderable="true" orderableForPage="true" partNumber="BG00652426" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00652426/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik-logo, Large, height 200 mm"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="3" item="6" orderable="true" orderableForPage="true" partNumber="64592412" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="64592412/INITIAL"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5e762fde1f184e2b8a26a31f5aaba069"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="@"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="TH430 210 mm"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="4" item="7" orderable="true" orderableForPage="true" partNumber="02830300" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02830300/C"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5f607152a83c8104b32d6acbd720a78b"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="C"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Fire extinguisher"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="5" item="8" orderable="true" orderableForPage="true" partNumber="56004224" partNumberVisible="true" partNumberVisibleForPage="true" quantity="4" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56004224/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Center of gravity"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="6" item="9" orderable="true" orderableForPage="true" partNumber="00003850" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="00003850/INITIAL"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Lifting hook"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="7" item="10" orderable="true" orderableForPage="true" partNumber="02813324" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02813324/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Hydraulic oil"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="8" item="11" orderable="true" orderableForPage="true" partNumber="02813314" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02813314/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Brake oil"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="9" item="13" orderable="true" orderableForPage="true" partNumber="56036863" partNumberVisible="true" partNumberVisibleForPage="true" quantity="4.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036863/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Explosion Hazard -Pre Charge 90 bar"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="10" item="14" orderable="true" orderableForPage="true" partNumber="56024640" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="SIGNAL"/>
+            <Translation description="" locale="sv" name="Skylt"/>
+            <Translation description="" locale="en" name="Sign"/>
+            <Translation description="" locale="fi" name="Kilpi"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56024640/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="dbf7994c4eb4443a109b3649917fede1"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Do not remove during transport"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0.000184624942085976"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="11" item="15" orderable="true" orderableForPage="true" partNumber="BG01582972" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="de" name="Schild"/>
+            <Translation description="" locale="fi" name="Merkintä"/>
+            <Translation description="" locale="en" name="Label"/>
+            <Translation description="" locale="sv" name="Etikett"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01582972/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="c1e32244405b2a895210dbbe8edc1355"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Shifter, 4-Speed/1R"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="12" item="16" orderable="true" orderableForPage="true" partNumber="04910301" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="BANDE"/>
+            <Translation description="" locale="en" name="Tape"/>
+            <Translation description="" locale="sv" name="Tejp"/>
+            <Translation description="" locale="fi" name="Teippi"/>
+            <Translation description="" locale="de" name="Klebeband"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="04910301/INITIAL"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="e8d9338a6ae7090abdd68efe43126512"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="@"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="102mm 4x60', Roll"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="13" item="17" orderable="true" orderableForPage="true" partNumber="00299710" partNumberVisible="true" partNumberVisibleForPage="true" quantity="8.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="00299710/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Reflective, 120 mm"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="14" item="18" orderable="true" orderableForPage="true" partNumber="56039392" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56039392/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="330bca900862f71709db96125d05a01a"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Dust hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="15" item="19" orderable="true" orderableForPage="true" partNumber="56036748" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036748/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Hearing protectors"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="16" item="20" orderable="true" orderableForPage="true" partNumber="BG00243528" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00243528/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Hot parts under covers"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="17" item="21" orderable="true" orderableForPage="true" partNumber="56036860" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036860/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Explosion Hazard -Pre Charge 40 bar"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="18" item="23" orderable="true" orderableForPage="true" partNumber="56027832" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56027832/INITIAL"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5e762fde1f184e2b8a26a31f5aaba069"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="@"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Grey band, 90mm high"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="19" item="24" orderable="true" orderableForPage="true" partNumber="BG00344359" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="Windscreen washer tank" locale="zh" name="Decal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="Windscreen washer tank" locale="de" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00344359/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Windscreen washer tank"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="20" item="25" orderable="true" orderableForPage="true" partNumber="BG01592669" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Etikett"/>
+            <Translation description="" locale="fi" name="Merkintä"/>
+            <Translation description="" locale="de" name="Schild"/>
+            <Translation description="" locale="en" name="Label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01592669/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="c1e32244405b2a895210dbbe8edc1355"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Shifter, 3-Speed/1R"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="21" item="26" orderable="true" orderableForPage="true" partNumber="BG01592670" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Etikett"/>
+            <Translation description="" locale="en" name="Label"/>
+            <Translation description="" locale="fi" name="Merkintä"/>
+            <Translation description="" locale="de" name="Schild"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01592670/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="c1e32244405b2a895210dbbe8edc1355"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Shifter, 2-Speed/1R"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="22" item="31" orderable="true" orderableForPage="true" partNumber="BG00247352" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00247352/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Battery disconnect warning"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="23" item="33" orderable="true" orderableForPage="true" partNumber="56211314" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56211314/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Instruction Decal, AdBlue"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="24" item="34" orderable="true" orderableForPage="true" partNumber="BG00421162" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00421162/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="AdBlue tank"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="25" item="35" orderable="true" orderableForPage="true" partNumber="BG00421143" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00421143/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Diesel fuel tank, AdBlue instruction"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="26" item="37" orderable="true" orderableForPage="true" partNumber="BG00360893" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00360893/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="In case of fire"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="27" item="38" orderable="true" orderableForPage="true" partNumber="BG00302763" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00302763/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="In case of fire"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="28" item="45" orderable="true" orderableForPage="true" partNumber="56011907" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56011907/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5f607152a83c8104b32d6acbd720a78b"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="C"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Jump start"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="29" item="47" orderable="true" orderableForPage="true" partNumber="BG01240378" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01240378/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Reflector decal, 170 mm"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="30" item="48" orderable="true" orderableForPage="true" partNumber="BG00247599" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00247599/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Filling pump"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="31" item="49" orderable="true" orderableForPage="true" partNumber="56042845" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Muovilevy"/>
+            <Translation description="" locale="en" name="Plate, Plastic"/>
+            <Translation description="" locale="fr" name="PLAQUE PLASTIQUE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56042845/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="2c022a8704d7e94594687926e33bfceb"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="For accumulator warning labels"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="32" item="53" orderable="true" orderableForPage="true" partNumber="BG01448853" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="de" name="Schild"/>
+            <Translation description="" locale="fi" name="Merkintä"/>
+            <Translation description="" locale="sv" name="Etikett"/>
+            <Translation description="" locale="en" name="Label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01448853/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="c1e32244405b2a895210dbbe8edc1355"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Instruction decal, ejector box"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="33" item="58" orderable="true" orderableForPage="true" partNumber="BG00997961" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety Label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00997961/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="83003d52bc981f0ab985a4480490d766"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Do not step"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="34" item="60" orderable="true" orderableForPage="true" partNumber="BG01442350" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Sticker"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01442350/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5d4fab94dbbf4744238e9c3d0b773b99"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik OE15W40-N"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="35" item="62" orderable="true" orderableForPage="true" partNumber="BG01048723" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Sticker"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01048723/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5d4fab94dbbf4744238e9c3d0b773b99"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik OA85W140, Axle oil"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="36" item="63" orderable="true" orderableForPage="true" partNumber="BG01048702" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Sticker"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01048702/C"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="eede00480ed5078a1b1119a2fcb9f0f9"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="C"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik OA10W30-KS, Hydraulic oil, L9-945ENG"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="37" item="64" orderable="true" orderableForPage="true" partNumber="BG01048692" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Sticker"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="NA"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5d4fab94dbbf4744238e9c3d0b773b99"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik OG220, Grease, L9-932ENG, NLGI 2"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="38" item="65" orderable="true" orderableForPage="true" partNumber="BG01048720" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Sticker"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01048720/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5d4fab94dbbf4744238e9c3d0b773b99"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik OF-Coolant, Engine"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="39" item="69" orderable="true" orderableForPage="true" partNumber="BG00910661" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00910661/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="72b798377848d3b6ab0e2495a13bfbdd"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik-logo, height 80 mm"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0.000000000000000"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="40" item="70" orderable="true" orderableForPage="true" partNumber="BG01572180" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Sticker"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01572180/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5d4fab94dbbf4744238e9c3d0b773b99"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Engine oil, 5W-40"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="41" item="71" orderable="true" orderableForPage="true" partNumber="56206201" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56206201/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Shell Tellus, Arctic"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="42" item="72" orderable="true" orderableForPage="true" partNumber="BG01084105" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="Sticker, Titan Gear HYP LD" locale="de" name="Sticker"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Sticker"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="NA"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="5d4fab94dbbf4744238e9c3d0b773b99"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sticker, Titan Gear HYP LD SAE 80W-90"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="43" item="101" orderable="true" orderableForPage="true" partNumber="BG00248335" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00248335/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Roll over hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="44" item="102" orderable="true" orderableForPage="true" partNumber="56036751" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036751/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Crushing danger"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="45" item="103" orderable="true" orderableForPage="true" partNumber="56036749" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036749/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Hot surface"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="46" item="104" orderable="true" orderableForPage="true" partNumber="56036756" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036756/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Cutting hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="47" item="105" orderable="true" orderableForPage="true" partNumber="56036752" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036752/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Slipping hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="48" item="106" orderable="true" orderableForPage="true" partNumber="56036753" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036753/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="330bca900862f71709db96125d05a01a"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Hazardous box motion"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="49" item="107" orderable="true" orderableForPage="true" partNumber="56036750" partNumberVisible="true" partNumberVisibleForPage="true" quantity="4.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036750/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="High press.oil hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="50" item="108" orderable="true" orderableForPage="true" partNumber="56036755" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036755/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="330bca900862f71709db96125d05a01a"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Body crush hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="51" item="109" orderable="true" orderableForPage="true" partNumber="56036826" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036826/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Splashing hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="52" item="110" orderable="true" orderableForPage="true" partNumber="56037566" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56037566/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Battery cover"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="53" item="111" orderable="true" orderableForPage="true" partNumber="56037320" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56037320/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Restricted Visibility"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="54" item="112" orderable="true" orderableForPage="true" partNumber="56036696" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036696/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Instructions"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="55" item="113" orderable="true" orderableForPage="true" partNumber="BG00409774" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00409774/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Close the door, Truck"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="56" item="114" orderable="true" orderableForPage="true" partNumber="56038806" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56038806/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Instruction, Parking"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="57" item="115" orderable="true" orderableForPage="true" partNumber="56036698" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56036698/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Safety instructions"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="58" item="116" orderable="true" orderableForPage="true" partNumber="02867904" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02867904/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Stopping the engine"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="59" item="117" orderable="true" orderableForPage="true" partNumber="56037654" partNumberVisible="true" partNumberVisibleForPage="true" quantity="3.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56037654/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Emergency stop"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="60" item="118" orderable="true" orderableForPage="true" partNumber="02868820" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="es" name="Adhesivo"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="Engine oil" locale="en" name="Decal"/>
+            <Translation description="" locale="ru" name="Табличка"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="Engine oil" locale="zh" name="Decal"/>
+            <Translation description="Engine oil" locale="de" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02868820/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="c51fea6e77da6a3c7a25ce572e6c2c20"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Engine oil"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0.0239836199744673"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="61" item="119" orderable="true" orderableForPage="true" partNumber="02868830" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="Transmission oil" locale="de" name="Decal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="Transmission oil" locale="zh" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02868830/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="d484bc2794c38f6ee6ec6a14f09e6a01"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Transmission oil"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="62" item="120" orderable="true" orderableForPage="true" partNumber="02814490" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="Hydraulic oil tank" locale="en" name="Decal"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="ru" name="Табличка"/>
+            <Translation description="Hydraulic oil tank" locale="zh" name="Decal"/>
+            <Translation description="Hydraulic oil tank" locale="de" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02814490/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="0575e80df34f75a6c69d95f8ba099eee"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Hydraulic oil tank"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0.0378466267217332"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="63" item="121" orderable="true" orderableForPage="true" partNumber="02814520" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="de" name="Decal"/>
+            <Translation description="" locale="zh" name="Decal"/>
+            <Translation description="Fuel tank" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="ru" name="Табличка"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="02814520/B"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="a89faf05e4b735daaeac24ea18e48782"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="B"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Fuel tank"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0.0388689190466433"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="64" item="122" orderable="true" orderableForPage="true" partNumber="56037927" partNumberVisible="true" partNumberVisibleForPage="true" quantity="4" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="56037927/INITIAL"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Jacking point"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="65" item="123" orderable="true" orderableForPage="true" partNumber="BG00422626" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG00413578/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Stopping the engine"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="66" item="124" orderable="true" orderableForPage="true" partNumber="BG01157879" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety Label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01157879/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="83003d52bc981f0ab985a4480490d766"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Falling objects hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="67" item="125" orderable="true" orderableForPage="true" partNumber="BG01157651" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety Label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01157651/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="83003d52bc981f0ab985a4480490d766"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Crushing hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="68" item="126" orderable="true" orderableForPage="true" partNumber="BG01219498" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety Label"/>
+            <Tag name="Availability" value="true"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01219498/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="83003d52bc981f0ab985a4480490d766"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Falling load hazard"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="69" item="127" orderable="true" orderableForPage="true" partNumber="BG01130404" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01130404/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Safety decal  Diesel emission hazard, Russian"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="70" item="128" orderable="true" orderableForPage="true" partNumber="BG01113581" partNumberVisible="true" partNumberVisibleForPage="true" quantity="1.00" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="sv" name="Dekal"/>
+            <Translation description="" locale="en" name="Decal"/>
+            <Translation description="" locale="fr" name="ETIQUETTE"/>
+            <Translation description="" locale="fi" name="Tarra"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01113581/A"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="8409ebe9b5829171598081dab8f9db6c"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="A"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Safety decal  Diesel emission hazard, Russian"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+        <Part discountedPrice="0.0" instanceId="71" item="150" orderable="true" orderableForPage="true" partNumber="BG01207880" partNumberVisible="true" partNumberVisibleForPage="true" quantity="2" retailPrice="0.0" supplierKey="CALLIFTEST" unitOfMeasure="each" wholesalePrice="0.0">
+            <Translation description="" locale="en" name="Safety Label"/>
+            <Tag isLocalToPage="true" name="DrawingNumber" value="BG01207880/D"/>
+            <Tag isLocalToPage="true" name="PartAttributesHash" value="0f49a4dc87db38410057df2270f56f70"/>
+            <Tag isLocalToPage="true" name="PartType" value="Normal"/>
+            <Tag isLocalToPage="true" name="RecommendedSparePart" value="false"/>
+            <Tag isLocalToPage="true" name="Revision" value="D"/>
+            <Tag isLocalToPage="true" name="SparePartDescription" value="Sandvik Eclipse disconnected"/>
+            <Tag isLocalToPage="true" name="SparePartDocument" value="false"/>
+            <Tag isLocalToPage="true" name="SparePartIndicator" value="Spare part"/>
+            <Tag isLocalToPage="true" name="TracedItem" value="Not Traced"/>
+            <Tag isLocalToPage="true" name="Weight" value="0"/>
+        </Part>
+    </Page>
+</Media>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Page tenantKey="CALLIFTEST" pageFile="f09cfe50d4be2adfeaf97d1441863656.wrapper.svg" hashKey="CALLIFTEST-f35e9cd6868c5e46fcb078b930bdc7d0" xmlns="http://digabit.com/documoto/partslist/1.6">
+    <Translation locale="en" name="Gearbox" description="Assembly"/>
+    <Translation locale="fi" name="Vaihdelaatikko"/>
+    <Translation locale="sv" name="Växellåda"/>
+    <Translation locale="fr" name="BOITE DE VITESSE"/>
+    <Tag name="DrawingNumber" value="BG00657132/B"/>
+    <Tag name="SparePartIndicator" value="Spare part"/>
+    <Tag name="SparePartDescription" value="Assembly"/>
+    <Tag name="SparePartDocument" value="true"/>
+    <Tag name="AssemblyNumber" value="BG00657132"/>
+    <Tag name="Revision" value="B"/>
+    <Tag name="siteOriginId" value="518175472"/>
+    <Tag name="batchId" value="1652769303"/>
+    <Tag name="OriginalImageHash" value="f09cfe50d4be2adfeaf97d1441863656"/>
+    <Tag name="DrawingsHash" value="063493d49c1091b19348aab26cea9434"/>
+    <Tag name="OriginalImageHashes" value="f09cfe50d4be2adfeaf97d1441863656"/>
+    <Part partNumber="87169289" unitOfMeasure="each" item="2" quantity="5" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="Plug" description="G1/4"/>
+        <Translation locale="fi" name="Tulppa" description=""/>
+        <Translation locale="sv" name="Stickkontakt" description=""/>
+        <Translation locale="fr" name="BOUCHON fiche téléphonique" description=""/>
+        <Translation locale="de" name="Verschlussschraube" description=""/>
+        <Tag name="Revision" value="@" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="NA" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="G1/4" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="false" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.0219145734501738" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="F - Fixing, Fastening or Fabricated item" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="906c020b4a5c4309fe4a71b73650b27d" isLocalToPage="true"/>
+    </Part>
+    <Part partNumber="88113909" unitOfMeasure="each" item="3" quantity="2" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="Plug" description="G3/8"/>
+        <Translation locale="fi" name="Tulppa" description=""/>
+        <Translation locale="sv" name="Stickkontakt" description=""/>
+        <Translation locale="fr" name="BOUCHON fiche téléphonique" description=""/>
+        <Translation locale="de" name="Verschlussschraube" description=""/>
+        <Tag name="Revision" value="@" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="NA" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="G3/8" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="false" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.0289296656426902" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="F - Fixing, Fastening or Fabricated item" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="6548455ca81d47c4feac594188a603c3" isLocalToPage="true"/>
+    </Part>
+    <Part partNumber="88114079" unitOfMeasure="each" item="4" quantity="2" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="Plug" description="G1/2"/>
+        <Translation locale="fi" name="Tulppa" description=""/>
+        <Translation locale="sv" name="Stickkontakt" description=""/>
+        <Translation locale="fr" name="BOUCHON fiche téléphonique" description=""/>
+        <Translation locale="de" name="Verschlussschraube" description=""/>
+        <Tag name="Revision" value="@" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="NA" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="G1/2" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="false" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.0517177969782746" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="F - Fixing, Fastening or Fabricated item" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="f49507df74fc44e857a55b5be398448a" isLocalToPage="true"/>
+    </Part>
+    <Part partNumber="80644809" unitOfMeasure="each" item="5" quantity="1" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="Plug" description="G1/4"/>
+        <Translation locale="fi" name="Tulppa" description=""/>
+        <Translation locale="sv" name="Stickkontakt" description=""/>
+        <Translation locale="fr" name="BOUCHON fiche téléphonique" description=""/>
+        <Translation locale="de" name="Verschlussschraube" description=""/>
+        <Tag name="Revision" value="A" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="NA" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="G1/4" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="false" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.00580753431107821" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="F - Fixing, Fastening or Fabricated item" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="b9c69295f716e96799a3c05685810c5e" isLocalToPage="true"/>
+    </Part>
+    <Part partNumber="80181149" unitOfMeasure="each" item="6" quantity="1" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="Plug" description="G1/8"/>
+        <Translation locale="fi" name="Tulppa" description=""/>
+        <Translation locale="sv" name="Stickkontakt" description=""/>
+        <Translation locale="fr" name="BOUCHON fiche téléphonique" description=""/>
+        <Translation locale="de" name="Verschlussschraube" description=""/>
+        <Tag name="Revision" value="@" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="NA" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="G1/8" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="false" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.00380842927664116" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="F - Fixing, Fastening or Fabricated item" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="e00d7c7db53c5c07a14e55a6d6c6a63f" isLocalToPage="true"/>
+    </Part>
+    <Part partNumber="55155203" unitOfMeasure="each" item="7" quantity="1" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="Bearing Assembly" description="-"/>
+        <Translation locale="fi" name="Laakerikokoonpano" description=""/>
+        <Translation locale="fr" name="PALIER ASSEMBLE" description=""/>
+        <Translation locale="de" name="Lagermontage" description=""/>
+        <Tag name="Revision" value="@" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="55155203/INITIAL" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="-" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="false" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.350000000000000" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="M - Maintenance / Wear Items" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="5fa8cc55d4fc9272c8f061e76a92b4e9" isLocalToPage="true"/>
+    </Part>
+    <Part partNumber="52213100" unitOfMeasure="each" item="8" quantity="1" supplierKey="CALLIFTEST">
+        <Translation locale="en" name="O-Ring" description="34.2x3.00"/>
+        <Translation locale="fi" name="O-rengas" description=""/>
+        <Translation locale="sv" name="O-ring" description=""/>
+        <Translation locale="fr" name="JOINT TORIQUE" description=""/>
+        <Translation locale="de" name="O-Ring" description=""/>
+        <Tag name="Revision" value="A" isLocalToPage="true"/>
+        <Tag name="DrawingNumber" value="NA" isLocalToPage="true"/>
+        <Tag name="SparePartIndicator" value="Spare part" isLocalToPage="true"/>
+        <Tag name="SparePartDescription" value="34.2x3.00" isLocalToPage="true"/>
+        <Tag name="SparePartDocument" value="false" isLocalToPage="true"/>
+        <Tag name="RecommendedSparePart" value="true" isLocalToPage="true"/>
+        <Tag name="Weight" value="0.000991303066045416" isLocalToPage="true"/>
+        <Tag name="ItemCategory" value="M - Maintenance / Wear Items" isLocalToPage="true"/>
+        <Tag name="PartType" value="Normal" isLocalToPage="true"/>
+        <Tag name="TracedItem" value="Not Traced" isLocalToPage="true"/>
+        <Tag name="PartAttributesHash" value="4b3a600029e2c0e3c2480609176464ea" isLocalToPage="true"/>
+    </Part>
+    <Tag name="PageItemAttributesHash" value="715f763cb7069324cca37f26872e56a7"/>
+    <Tag name="PageItemNumbersHash" value="7d132cf16ef53e7b49de920d732931a3"/>
+    <Tag name="ExternalUniqueKey" value="02005968a8b8e02760565d60f5fd62e7"/>
+    <Tag name="Hash Key Tag" value="f35e9cd6868c5e46fcb078b930bdc7d0"/>
+</Page>
