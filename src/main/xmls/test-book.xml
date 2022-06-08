@@ -5,7 +5,7 @@
         <Translation description="" locale="en" name="Chapter 1"/>
         <Chapter externalUri="" openInNewBrowserWindow="false" pageFile="">
             <Translation description="" locale="en" name="Sub-Chapter 1"/>
-            <Page hashKey="CALLIFTEST-d1261d835d76137637c6600a7b41f242" pageFile="7fa39574ec2767009cc6d540470eb146.wrapper.svg">
+            <Page hashKey="d1261d835d76137637c6600a7b41f242" pageFile="7fa39574ec2767009cc6d540470eb146.wrapper.svg">
                 <Translation description="" locale="en" name="Grease Pump"/>
                 <SecondaryPageFile displayOrder="1" fileName="429715fdbd8bf483fbaa7ba919c8ece7.wrapper.svg"/>
                 <Tag name="AssemblyNumber" value="55076646"/>
@@ -164,7 +164,7 @@
         </Chapter>
         <Chapter externalUri="" openInNewBrowserWindow="false" pageFile="">
             <Translation description="" locale="en" name="Sub-Chapter 2"/>
-            <Page hashKey="CALLIFTEST-d1261d835d76137637c6600a7b41f242" pageFile="7fa39574ec2767009cc6d540470eb146.wrapper.svg">
+            <Page hashKey="d1261d835d76137637c6600a7b41f242" pageFile="7fa39574ec2767009cc6d540470eb146.wrapper.svg">
                 <Translation description="" locale="en" name="Grease Pump"/>
                 <SecondaryPageFile displayOrder="1" fileName="429715fdbd8bf483fbaa7ba919c8ece7.wrapper.svg"/>
                 <Tag name="AssemblyNumber" value="55076646"/>
@@ -320,7 +320,7 @@
                     <Tag isLocalToPage="true" name="Weight" value="0"/>
                 </Part>
             </Page>
-            <Page hashKey="CALLIFTEST-1f511ba09c9af5a7fff7a66e2dfa23e4" pageFile="459d7c7b0b4342cc0a12ed8aff214bfe.wrapper.svg">
+            <Page hashKey="1f511ba09c9af5a7fff7a66e2dfa23e4" pageFile="459d7c7b0b4342cc0a12ed8aff214bfe.wrapper.svg">
                 <Translation description="" locale="fi" name="Paineilman huoltoyksikkÃ¶"/>
                 <Translation description="" locale="fr" name="GROUPE COMPRESSEUR"/>
                 <Translation description="" locale="en" name="Service Unit, Air"/>
@@ -441,7 +441,7 @@
             </Page>
         </Chapter>
     </Chapter>
-    <Page hashKey="CALLIFTEST-1fd0e996810711ec90f2df33757a02b7" pageFile="8a45f82d95d43d2adf6450e82933f275.wrapper.svg">
+    <Page hashKey="1fd0e996810711ec90f2df33757a02b7" pageFile="8a45f82d95d43d2adf6450e82933f275.wrapper.svg">
         <Translation description="" locale="en" name="Signs And Safety Labels Assembly"/>
         <SecondaryPageFile displayOrder="12" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_12.svg"/>
         <SecondaryPageFile displayOrder="6" fileName="8a45f82d95d43d2adf6450e82933f275.wrapper_6.svg"/>

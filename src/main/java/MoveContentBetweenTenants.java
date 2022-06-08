@@ -1,6 +1,7 @@
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class MoveContentBetweenTenants {
     private String newTenantKey;
@@ -15,7 +16,7 @@ public class MoveContentBetweenTenants {
     private static final String PAGE_XSD_VERSION = "documoto_partslist1.6.xsd";
     private static final String PAGE_XMLNS = "http://digabit.com/documoto/partslist/1.6";
 
-    public MoveContentBetweenTenants(String tenantKey, String supplierKey, String attachmentUser) {
+    private MoveContentBetweenTenants(String tenantKey, String supplierKey, String attachmentUser) {
         this.newTenantKey = tenantKey;
         this.newSupplierKey = supplierKey;
         this.newAttachmentUser = attachmentUser;
@@ -24,21 +25,18 @@ public class MoveContentBetweenTenants {
     // Updates Part SupplierKeys
     private void updatePartSupplierKeys(String xmlLocation, String newXmlLocation) {
         ValidateXml validator = new ValidateXml();
-        // Check if XML is valid first
-        boolean validXml = validator.isXmlValid(RESOURCE_PATH + PAGE_XSD_VERSION, xmlLocation);
-        if (validXml) {
-            UpdateXml partUpdater = new UpdateXml();
-            // Convert XML file to Page Object
-            Page pg = partUpdater.xmlFileToPageObject(xmlLocation);
-            pg.setXmlns(PAGE_XMLNS);
-            pg.setTenantKey(newTenantKey);
-            partUpdater.updatePartSuppliers(pg, newSupplierKey);
 
-            if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
-                System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
-            } else {
-                System.out.println("Failed to write XML:" + newXmlLocation.lastIndexOf(File.separator) + 1);
-            }
+        UpdateXml partUpdater = new UpdateXml();
+        // Convert XML file to Page Object
+        Page pg = partUpdater.xmlFileToPageObject(xmlLocation);
+        pg.setXmlns(PAGE_XMLNS);
+        pg.setTenantKey(newTenantKey);
+        partUpdater.updatePartSuppliers(pg, newSupplierKey);
+
+        if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
+            System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+        } else {
+            System.out.println("Failed to write XML:" + newXmlLocation.lastIndexOf(File.separator) + 1);
         }
     }
 
@@ -46,12 +44,12 @@ public class MoveContentBetweenTenants {
         List<String> xmlFiles = new ArrayList<>();
 
         File folder = new File(xmlsLocation);
-        for (final File fileEntry : folder.listFiles()) {
+        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
             // Only look at regular files
             if (!fileEntry.isDirectory() && !fileEntry.isHidden()) {
                 // Check if XML is valid
                 ValidateXml validateXml = new ValidateXml();
-                if (validateXml.isXmlValid( RESOURCE_PATH + PAGE_XSD_VERSION, fileEntry.getAbsolutePath())) {
+                if (validateXml.isXmlValid(RESOURCE_PATH + PAGE_XSD_VERSION, fileEntry.getAbsolutePath())) {
                     xmlFiles.add(fileEntry.getAbsolutePath());
                 } else {
                     System.out.println(String.format("File: %s, is not a valid Page XML...ignoring for Page Update.", fileEntry.getName()));
@@ -71,21 +69,17 @@ public class MoveContentBetweenTenants {
     // Deletes every Part from XML
     private void deletePartsFromMediaXml(String xmlLocation, String newXmlLocation) {
         ValidateXml validator = new ValidateXml();
-        // Check if XML is valid first
-        boolean validXml = validator.isXmlValid(RESOURCE_PATH + MEDIA_XSD_VERSION, xmlLocation);
-        if (validXml) {
-            UpdateXml partDeletor = new UpdateXml();
-            // Convert XML file to Media Object
-            Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
-            m.setXmlns(MEDIA_XMLNS);
-            m.setTenantKey(newTenantKey);
-            partDeletor.removePartsFromMedia(m);
+        UpdateXml partDeletor = new UpdateXml();
+        // Convert XML file to Media Object
+        Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
+        m.setXmlns(MEDIA_XMLNS);
+        m.setTenantKey(newTenantKey);
+        partDeletor.removePartsFromMedia(m);
 
-            if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
-                System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
-            } else {
-                System.out.println("Failed to write XML");
-            }
+        if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
+            System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+        } else {
+            System.out.println("Failed to write XML");
         }
     }
 
@@ -94,12 +88,12 @@ public class MoveContentBetweenTenants {
         List<String> xmlFiles = new ArrayList<>();
 
         File folder = new File(xmlsLocation);
-        for (final File fileEntry : folder.listFiles()) {
+        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
             // Only look at regular files
             if (!fileEntry.isDirectory() && !fileEntry.isHidden()) {
                 // Check if XML is valid
                 ValidateXml validateXml = new ValidateXml();
-                if (validateXml.isXmlValid( RESOURCE_PATH + MEDIA_XSD_VERSION, fileEntry.getAbsolutePath())) {
+                if (validateXml.isXmlValid(RESOURCE_PATH + MEDIA_XSD_VERSION, fileEntry.getAbsolutePath())) {
                     xmlFiles.add(fileEntry.getAbsolutePath());
                 } else {
                     System.out.println(String.format("File: %s, is not a valid Media XML...ignoring for Media Update.", fileEntry.getName()));

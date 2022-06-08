@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Page tenantKey="CALLIFTEST" pageFile="f09cfe50d4be2adfeaf97d1441863656.wrapper.svg" hashKey="CALLIFTEST-f35e9cd6868c5e46fcb078b930bdc7d0" xmlns="http://digabit.com/documoto/partslist/1.6">
+<Page tenantKey="CALLIFTEST" pageFile="f09cfe50d4be2adfeaf97d1441863656.wrapper.svg" hashKey="f35e9cd6868c5e46fcb078b930bdc7d0" xmlns="http://digabit.com/documoto/partslist/1.6">
     <Translation locale="en" name="Gearbox" description="Assembly"/>
     <Translation locale="fi" name="Vaihdelaatikko"/>
     <Translation locale="sv" name="Växellåda"/>
