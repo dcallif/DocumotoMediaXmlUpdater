@@ -23,7 +23,7 @@ public class MoveContentBetweenTenants {
     }
 
     // Updates Part SupplierKeys
-    private void updatePartSupplierKeys(String xmlLocation, String newXmlLocation) {
+    private void updatePartSuppliersAndAttachmentUsers(String xmlLocation, String newXmlLocation) {
         UpdateXml partUpdater = new UpdateXml();
         // Convert XML file to Page Object
         Page pg = partUpdater.xmlFileToPageObject(xmlLocation);
@@ -39,7 +39,7 @@ public class MoveContentBetweenTenants {
         }
     }
 
-    private void updatePartsFromPageXmlsInDirectory(String xmlsLocation, String newXmlsLocation) {
+    private void updatePartsAndAttachmentsFromPageXmlsInDirectory(String xmlsLocation, String newXmlsLocation) {
         List<String> xmlFiles = new ArrayList<>();
 
         File folder = new File(xmlsLocation);
@@ -60,13 +60,13 @@ public class MoveContentBetweenTenants {
             for (String s : xmlFiles) {
                 String newXmlFilename = s.substring(s.lastIndexOf("/") + 1);
                 newXmlFilename = newXmlFilename.substring(0, newXmlFilename.lastIndexOf(".")) + "_editted.xml";
-                updatePartSupplierKeys(s, newXmlsLocation + newXmlFilename);
+                updatePartSuppliersAndAttachmentUsers(s, newXmlsLocation + newXmlFilename);
             }
         }
     }
 
     // Deletes every Part from XML
-    private void deletePartsFromMediaXml(String xmlLocation, String newXmlLocation) {
+    private void deletePartsAndUpdateAttachmentsFromMediaXml(String xmlLocation, String newXmlLocation) {
         UpdateXml partDeletor = new UpdateXml();
         // Convert XML file to Media Object
         Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
@@ -83,7 +83,7 @@ public class MoveContentBetweenTenants {
     }
 
     // Deletes every Part from every Media XML in directory
-    private void deletePartsFromMediaXmlsInDirectory(String xmlsLocation, String newXmlsLocation) {
+    private void deletePartsAndUpdateAttachmentsFromMediaXmlsInDirectory(String xmlsLocation, String newXmlsLocation) {
         List<String> xmlFiles = new ArrayList<>();
 
         File folder = new File(xmlsLocation);
@@ -104,7 +104,7 @@ public class MoveContentBetweenTenants {
             for (String s : xmlFiles) {
                 String newXmlFilename = s.substring(s.lastIndexOf("/") + 1);
                 newXmlFilename = newXmlFilename.substring(0, newXmlFilename.lastIndexOf(".")) + "_editted.xml";
-                deletePartsFromMediaXml(s, newXmlsLocation + newXmlFilename);
+                deletePartsAndUpdateAttachmentsFromMediaXml(s, newXmlsLocation + newXmlFilename);
             }
         }
     }
@@ -114,11 +114,11 @@ public class MoveContentBetweenTenants {
         // Delete Parts from 1 Book
         //test.deletePartsFromMediaXml(RESOURCE_PATH + MEDIA_XSD_VERSION, XML_PATH + "large-book.xml", XML_PATH + "out.xml");
         // Delete Parts from directory of Media XMLs
-        test.deletePartsFromMediaXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
+        test.deletePartsAndUpdateAttachmentsFromMediaXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
 
         // Update Part Suppliers for 1 Page
         //test.updatePartSupplierKeys("DOCUMOTO-TEST", XML_PATH + "page.xml", XML_PATH + "updated/page_editted.xml");
         // Update Part Suppliers for directory of Page XMLs
-        test.updatePartsFromPageXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
+        test.updatePartsAndAttachmentsFromPageXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
     }
 }
