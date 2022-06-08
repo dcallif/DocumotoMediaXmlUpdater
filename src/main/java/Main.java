@@ -56,8 +56,6 @@ public class Main {
         // Delete Parts from 1 Book
         //test.deletePartsFromMediaXml(RESOURCE_PATH + MEDIA_XSD_VERSION, XML_PATH + "large-book.xml", XML_PATH + "out.xml");
         // Delete Parts from directory of Media XMLs
-        test.deletePartsFromMediaXmlsInDirectory(RESOURCE_PATH + MEDIA_XSD_VERSION,
-                "/Users/Daniel/Downloads/sandvik-pub-issue/editted/books-only/",
-                "/Users/Daniel/Downloads/sandvik-pub-issue/editted/books-only/removedParts/");
+        test.deletePartsFromMediaXmlsInDirectory(RESOURCE_PATH + MEDIA_XSD_VERSION, XML_PATH, XML_PATH + "updated/");
     }
 }
