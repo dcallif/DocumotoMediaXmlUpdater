@@ -15,6 +15,7 @@ import javax.xml.transform.stream.StreamSource;
 import java.io.StringWriter;
 import java.io.StringReader;
 import java.io.File;
+import java.nio.file.Paths;
 
 public class UpdateXml {
     private static final String XML_PATH = "src/main/xmls/";
@@ -151,6 +152,15 @@ public class UpdateXml {
                         a.setUserName(userName);
                     }
                 }
+            }
+        }
+    }
+
+    // Updates Attachment username
+    void updateAttachmentUser(Page p, String userName) {
+        if (p.getAttachment() != null) {
+            for (Attachment a : p.getAttachment()) {
+                a.setUserName(userName);
             }
         }
     }

@@ -15,6 +15,9 @@
     <Tag name="OriginalImageHash" value="f09cfe50d4be2adfeaf97d1441863656"/>
     <Tag name="DrawingsHash" value="063493d49c1091b19348aab26cea9434"/>
     <Tag name="OriginalImageHashes" value="f09cfe50d4be2adfeaf97d1441863656"/>
+    <Attachment fileName="THUMBNAILTB60.JPG" global="false" publicBelowOrg="false" userName="documoto@constructiondemo.com">
+        <Comments>THUMBNAILTB60.JPG</Comments>
+    </Attachment>
     <Part partNumber="87169289" unitOfMeasure="each" item="2" quantity="5" supplierKey="CALLIFTEST">
         <Translation locale="en" name="Plug" description="G1/4"/>
         <Translation locale="fi" name="Tulppa" description=""/>

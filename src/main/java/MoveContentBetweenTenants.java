@@ -32,6 +32,7 @@ public class MoveContentBetweenTenants {
         pg.setXmlns(PAGE_XMLNS);
         pg.setTenantKey(newTenantKey);
         partUpdater.updatePartSuppliers(pg, newSupplierKey);
+        partUpdater.updateAttachmentUser(pg, newAttachmentUser);
 
         if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
             System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
