@@ -25,7 +25,7 @@ public class UpdateXml {
      * @param instance
      * @param fullFileNamePath
      * @param <Type>
-     * @return
+     * @return Boolean denoting whether XML was created
      * @throws JAXBException
      */
     public <Type> boolean writeToFileWithXmlTransformer(Type instance, String fullFileNamePath) {
@@ -130,6 +130,14 @@ public class UpdateXml {
         }
     }
 
+    // Update Part Supplier Keys
+    void updatePartSuppliers(Page pg, String supplierKey) {
+        // Check for Parts
+        for (Part prt : pg.getParts()) {
+            prt.setSupplierKey(supplierKey);
+        }
+    }
+
     // Converts XML file to a Media Object
     public Media xmlFileToMediaObject(String fullFileNamePath) {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -149,6 +157,31 @@ public class UpdateXml {
             Media m = (Media) binder.updateJAXB(xmlNode);
 
             return m;
+        } catch(Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    // Converts XML file to a Page Object
+    public Page xmlFileToPageObject(String fullFileNamePath) {
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        DocumentBuilder docBuilder = null;
+
+        // Convert XML File to Page Object
+        try {
+            docBuilder = dbf.newDocumentBuilder();
+            Document document = docBuilder.parse(fullFileNamePath);
+
+            JAXBContext jc = JAXBContext.newInstance(Page.class);
+            Binder<Node> binder = jc.createBinder();
+            // Pretty print output
+            binder.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+            Node xmlNode = document.getDocumentElement();
+            Page pg = (Page) binder.updateJAXB(xmlNode);
+
+            return pg;
         } catch(Exception e) {
             e.printStackTrace();
             return null;

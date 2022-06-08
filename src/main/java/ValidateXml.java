@@ -10,7 +10,6 @@ import javax.xml.validation.Validator;
 import org.xml.sax.SAXException;
 
 /**
- *Do not use DOMParser to validate a document (unless your goal is to create a document object model anyway)
  * @author Daniel
  */
 public class ValidateXml {
@@ -30,16 +29,17 @@ public class ValidateXml {
 
             Validator validator = schema.newValidator();
             validator.validate(xmlSource);
-            System.out.println(String.format("XML: %s, is valid", xmlFile.getName()));
+            //System.out.println(String.format("XML: %s, is valid", xmlFile.getName()));
             return true;
         } catch (SAXException | IOException e) {
-            System.out.println(String.format("Invalid XML: %s, Reason: %s", xmlFile.getName(), e.getMessage()));
+            //System.out.println(String.format("Invalid XML: %s, Reason: %s", xmlFile.getName(), e.getMessage()));
             return false;
         }
     }
 
-    public static void main(String[] args) throws SAXException {
+    public static void main(String[] args) {
         ValidateXml validate = new ValidateXml();
-        validate.isXmlValid( RESOURCE_PATH + "documoto_media1.4.xsd", XML_PATH + "large-book.xml");
+        validate.isXmlValid( RESOURCE_PATH + "documoto_media1.4.xsd", XML_PATH + "test-book.xml");
+        validate.isXmlValid( RESOURCE_PATH + "documoto_partslist1.6.xsd", XML_PATH + "page.xml");
     }
 }
