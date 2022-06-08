@@ -68,10 +68,10 @@ public class MoveContentBetweenTenants {
 
     // Deletes every Part from XML
     private void deletePartsFromMediaXml(String xmlLocation, String newXmlLocation) {
-        ValidateXml validator = new ValidateXml();
         UpdateXml partDeletor = new UpdateXml();
         // Convert XML file to Media Object
         Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
+        partDeletor.updateAttachmentUser(m, newAttachmentUser);
         m.setXmlns(MEDIA_XMLNS);
         m.setTenantKey(newTenantKey);
         partDeletor.removePartsFromMedia(m);

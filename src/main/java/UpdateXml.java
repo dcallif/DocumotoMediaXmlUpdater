@@ -130,11 +130,54 @@ public class UpdateXml {
         }
     }
 
-    // Update Part Supplier Keys
+    // Updates Part Supplier Keys
     void updatePartSuppliers(Page pg, String supplierKey) {
         // Check for Parts
         for (Part prt : pg.getParts()) {
             prt.setSupplierKey(supplierKey);
+        }
+    }
+
+    // Updates ALL Attachment userNames
+    void updateAttachmentUserRecursively(Chapter c, String userName) {
+        for (Chapter c1 : c.getChapters()) {
+            updateAttachmentUserRecursively(c1, userName);
+        }
+
+        if (c.getPages() != null) {
+            for (Page pg : c.getPages()) {
+                if (pg.getAttachment() != null) {
+                    for (Attachment a : pg.getAttachment()) {
+                        a.setUserName(userName);
+                    }
+                }
+            }
+        }
+    }
+
+    // Updates Attachment userNames
+    void updateAttachmentUser(Media m, String userName) {
+        // Check for Media-level Attachments
+        if (m.getAttachments() != null) {
+            for (Attachment a : m.getAttachments()) {
+                a.setUserName(userName);
+            }
+        }
+
+        // Check for Book-level Pages
+        if (m.getPages() != null) {
+            for (Page pg : m.getPages()) {
+                if (pg.getAttachment() != null) {
+                    for (Attachment a1 : pg.getAttachment()) {
+                        a1.setUserName(userName);
+                    }
+                }
+            }
+        }
+
+        // Update everything under Chapters
+        for (Chapter c : m.getChapters()) {
+            updateAttachmentUserRecursively(c, userName);
         }
     }
 
