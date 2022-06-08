@@ -24,8 +24,6 @@ public class MoveContentBetweenTenants {
 
     // Updates Part SupplierKeys
     private void updatePartSupplierKeys(String xmlLocation, String newXmlLocation) {
-        ValidateXml validator = new ValidateXml();
-
         UpdateXml partUpdater = new UpdateXml();
         // Convert XML file to Page Object
         Page pg = partUpdater.xmlFileToPageObject(xmlLocation);

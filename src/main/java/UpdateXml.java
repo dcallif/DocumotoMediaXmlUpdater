@@ -7,32 +7,23 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.OutputKeys;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import java.io.StringWriter;
-import java.io.StringReader;
 import java.io.File;
-import java.nio.file.Paths;
+import java.io.StringReader;
+import java.io.StringWriter;
 
 public class UpdateXml {
     private static final String XML_PATH = "src/main/xmls/";
-    private static final String MEDIA_XMLNS = "http://digabit.com/documoto/media/1.4";
 
-    /**
-     * Writes sent in XML object to XML file pretty printed
-     * @param instance
-     * @param fullFileNamePath
-     * @param <Type>
-     * @return Boolean denoting whether XML was created
-     * @throws JAXBException
-     */
-    public <Type> boolean writeToFileWithXmlTransformer(Type instance, String fullFileNamePath) {
+    // Writes sent in XML object to XML file pretty printed
+    <Type> boolean writeToFileWithXmlTransformer(Type instance, String fullFileNamePath) {
         boolean isSaved = false;
-        JAXBContext jaxBContent = null;
-        Marshaller marshaller = null;
+        JAXBContext jaxBContent;
+        Marshaller marshaller;
         StringWriter stringWriter = new StringWriter();
 
         try {
@@ -60,7 +51,7 @@ public class UpdateXml {
     }
 
     // Removes ALL Parts from EVERY Page under current Chapter
-    static void removePartsRecursively(Chapter c) {
+    private static void removePartsRecursively(Chapter c) {
         // Check if Chapter has Pages
         if (c.getPages() != null) {
             for (Page pg : c.getPages()) {
@@ -69,9 +60,7 @@ public class UpdateXml {
         }
 
         // Check if Chapter has child Chapters
-        if (c.getChapters() == null) {
-            return;
-        } else {
+        if (c.getChapters() != null) {
             for (Chapter c1 : c.getChapters()) {
                 removePartsRecursively(c1);
             }
@@ -94,7 +83,7 @@ public class UpdateXml {
     }
 
     // Updates ALL Part SupplierKeys
-    static void updatePartSuppliersRecursively(Chapter c, String supplierKey) {
+    private static void updatePartSuppliersRecursively(Chapter c, String supplierKey) {
         // Check if Chapter has Pages
         if (c.getPages() != null) {
             for (Page pg : c.getPages()) {
@@ -105,9 +94,7 @@ public class UpdateXml {
         }
 
         // Check if Chapter has child Chapters
-        if (c.getChapters() == null) {
-            return;
-        } else {
+        if (c.getChapters() != null) {
             for (Chapter c1: c.getChapters()) {
                 updatePartSuppliersRecursively(c1, supplierKey);
             }
@@ -115,7 +102,7 @@ public class UpdateXml {
     }
 
     // Update Part Supplier Keys
-    void updatePartSuppliers(Media m, String supplierKey) {
+    private void updatePartSuppliers(Media m, String supplierKey) {
         // Check for root-level Chapters
         for (Chapter c : m.getChapters()) {
             updatePartSuppliersRecursively(c, supplierKey);
@@ -140,18 +127,14 @@ public class UpdateXml {
     }
 
     // Updates ALL Attachment userNames
-    void updateAttachmentUserRecursively(Chapter c, String userName) {
+    private void updateAttachmentUserRecursively(Chapter c, String userName) {
         for (Chapter c1 : c.getChapters()) {
             updateAttachmentUserRecursively(c1, userName);
         }
 
         if (c.getPages() != null) {
             for (Page pg : c.getPages()) {
-                if (pg.getAttachment() != null) {
-                    for (Attachment a : pg.getAttachment()) {
-                        a.setUserName(userName);
-                    }
-                }
+                updateAttachmentUser(pg, userName);
             }
         }
     }
@@ -177,11 +160,7 @@ public class UpdateXml {
         // Check for Book-level Pages
         if (m.getPages() != null) {
             for (Page pg : m.getPages()) {
-                if (pg.getAttachment() != null) {
-                    for (Attachment a1 : pg.getAttachment()) {
-                        a1.setUserName(userName);
-                    }
-                }
+                updateAttachmentUser(pg, userName);
             }
         }
 
@@ -192,9 +171,9 @@ public class UpdateXml {
     }
 
     // Converts XML file to a Media Object
-    public Media xmlFileToMediaObject(String fullFileNamePath) {
+    Media xmlFileToMediaObject(String fullFileNamePath) {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = null;
+        DocumentBuilder docBuilder;
 
         // Convert XML File to Media Object
         try {
@@ -207,9 +186,8 @@ public class UpdateXml {
             binder.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
             Node xmlNode = document.getDocumentElement();
-            Media m = (Media) binder.updateJAXB(xmlNode);
 
-            return m;
+            return (Media) binder.updateJAXB(xmlNode);
         } catch(Exception e) {
             e.printStackTrace();
             return null;
@@ -217,9 +195,9 @@ public class UpdateXml {
     }
 
     // Converts XML file to a Page Object
-    public Page xmlFileToPageObject(String fullFileNamePath) {
+    Page xmlFileToPageObject(String fullFileNamePath) {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = null;
+        DocumentBuilder docBuilder;
 
         // Convert XML File to Page Object
         try {
@@ -232,9 +210,8 @@ public class UpdateXml {
             binder.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
             Node xmlNode = document.getDocumentElement();
-            Page pg = (Page) binder.updateJAXB(xmlNode);
 
-            return pg;
+            return (Page) binder.updateJAXB(xmlNode);
         } catch(Exception e) {
             e.printStackTrace();
             return null;
@@ -244,7 +221,7 @@ public class UpdateXml {
     public static void main(String[] args) {
         UpdateXml test = new UpdateXml();
         Media m = test.xmlFileToMediaObject(XML_PATH + "test-book.xml");
-        m.setXmlns(MEDIA_XMLNS);
+        m.setXmlns("http://digabit.com/documoto/media/1.4");
         //test.removePartsFromMediaRecursively(m);
         test.updatePartSuppliers(m, "CALLIFTEST");
 
