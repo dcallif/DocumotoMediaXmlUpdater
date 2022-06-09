@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class MoveContentBetweenTenants {
+public class TenantMigrator {
     private String newTenantKey;
     private String newSupplierKey;
     private String newAttachmentUser;
@@ -16,7 +16,7 @@ public class MoveContentBetweenTenants {
     private static final String PAGE_XSD_VERSION = "documoto_partslist1.6.xsd";
     private static final String PAGE_XMLNS = "http://digabit.com/documoto/partslist/1.6";
 
-    private MoveContentBetweenTenants(String tenantKey, String supplierKey, String attachmentUser) {
+    private TenantMigrator(String tenantKey, String supplierKey, String attachmentUser) {
         this.newTenantKey = tenantKey;
         this.newSupplierKey = supplierKey;
         this.newAttachmentUser = attachmentUser;
@@ -172,7 +172,7 @@ public class MoveContentBetweenTenants {
         String XML_PATH = "src/main/xmls/";
         String MDZ_PATH = "src/main/mdzs/";
 
-        MoveContentBetweenTenants test = new MoveContentBetweenTenants("D1", "DD11", "test@documototesting.com");
+        TenantMigrator test = new TenantMigrator("D1", "DD11", "test@documototesting.com");
         // Delete Parts from 1 Book
         //test.deletePartsAndUpdateAttachmentsFromMediaXml(XML_PATH + "large-book.xml", XML_PATH + "out.xml");
         // Delete Parts from directory of Media XMLs
