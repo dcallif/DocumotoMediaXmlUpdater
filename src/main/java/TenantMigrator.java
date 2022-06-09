@@ -98,6 +98,33 @@ public class TenantMigrator {
         }
     }
 
+    // Deletes every Part from every Media XML in directory
+    private void deletePartsAndUpdateAttachmentsFromMediaXmlsInDirectory(String xmlsLocation, String newXmlsLocation) {
+        List<String> xmlFiles = new ArrayList<>();
+
+        File folder = new File(xmlsLocation);
+        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
+            // Only look at regular files
+            if (!fileEntry.isDirectory() && !fileEntry.isHidden()) {
+                // Check if XML is valid
+                ValidateXml validateXml = new ValidateXml();
+                if (validateXml.isXmlValid(RESOURCE_PATH + MEDIA_XSD_VERSION, fileEntry.getAbsolutePath())) {
+                    xmlFiles.add(fileEntry.getAbsolutePath());
+                } else {
+                    System.out.println(String.format("File: %s, is not a valid Media XML...ignoring for Media Update.", fileEntry.getName()));
+                }
+            }
+        }
+
+        if (xmlFiles.size() > 0) {
+            for (String s : xmlFiles) {
+                String newXmlFilename = s.substring(s.lastIndexOf("/") + 1);
+                newXmlFilename = newXmlFilename.substring(0, newXmlFilename.lastIndexOf(".")) + "_editted.xml";
+                deletePartsAndUpdateAttachmentsFromMediaXml(s, newXmlsLocation + newXmlFilename);
+            }
+        }
+    }
+
     // Updates include: TenantKeys/SupplierKeys/Usernames/HashKeys
     private void updateDirectoryOfMdzs(String mdzsLocation, String newSaveLocation) {
         File folder = new File(mdzsLocation);
@@ -163,33 +190,6 @@ public class TenantMigrator {
             }
         }
         System.out.println("MDZ Update Complete!");
-    }
-
-    // Deletes every Part from every Media XML in directory
-    private void deletePartsAndUpdateAttachmentsFromMediaXmlsInDirectory(String xmlsLocation, String newXmlsLocation) {
-        List<String> xmlFiles = new ArrayList<>();
-
-        File folder = new File(xmlsLocation);
-        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
-            // Only look at regular files
-            if (!fileEntry.isDirectory() && !fileEntry.isHidden()) {
-                // Check if XML is valid
-                ValidateXml validateXml = new ValidateXml();
-                if (validateXml.isXmlValid(RESOURCE_PATH + MEDIA_XSD_VERSION, fileEntry.getAbsolutePath())) {
-                    xmlFiles.add(fileEntry.getAbsolutePath());
-                } else {
-                    System.out.println(String.format("File: %s, is not a valid Media XML...ignoring for Media Update.", fileEntry.getName()));
-                }
-            }
-        }
-
-        if (xmlFiles.size() > 0) {
-            for (String s : xmlFiles) {
-                String newXmlFilename = s.substring(s.lastIndexOf("/") + 1);
-                newXmlFilename = newXmlFilename.substring(0, newXmlFilename.lastIndexOf(".")) + "_editted.xml";
-                deletePartsAndUpdateAttachmentsFromMediaXml(s, newXmlsLocation + newXmlFilename);
-            }
-        }
     }
 
     public static void main(String[] args) {
