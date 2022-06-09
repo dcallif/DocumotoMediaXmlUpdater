@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.util.ArrayList;
 import java.util.List;
 
-@XmlType(name="",propOrder={"instanceId", "item", "supplierKey", "quantity", "partNumber", "unitOfMeasure", "orderable", "orderableForPage", "partNumberVisible", "partNumberVisibleForPage", "translations", "tags"})
+@XmlType(name="",propOrder={"instanceId", "item", "supplierKey", "quantity", "partNumber", "unitOfMeasure", "orderable", "orderableForPage", "partNumberVisible", "partNumberVisibleForPage", "translations", "tags", "attachments"})
 @XmlRootElement(name="Part")
 public class Part
 {
@@ -25,10 +25,11 @@ public class Part
 
 	private List<Translation> translations = new ArrayList<Translation>();
 	private List<Tag> tags = new ArrayList<Tag>();
+	private List<Attachment> attachments;
 
 	public Part () {  }
 
-	public Part(String supplierKey, String quantity, String partNumber, String unitOfMeasure, String item, String discountedPrice, String retailPrice, String wholesalePrice, int instanceId, String orderable, String orderableForPage, String partNumberVisible, String partNumberVisibleForPage, List<Translation> translations, List<Tag> tags) {
+	public Part(String supplierKey, String quantity, String partNumber, String unitOfMeasure, String item, String discountedPrice, String retailPrice, String wholesalePrice, int instanceId, String orderable, String orderableForPage, String partNumberVisible, String partNumberVisibleForPage, List<Translation> translations, List<Tag> tags, List<Attachment> attachments) {
 		this.supplierKey = supplierKey;
 		this.quantity = quantity;
 		this.partNumber = partNumber;
@@ -44,6 +45,7 @@ public class Part
 		this.partNumberVisibleForPage = partNumberVisibleForPage;
 		this.translations = translations;
 		this.tags = tags;
+		this.attachments = attachments;
 	}
 
 	public Part(String supplierKey, String quantity, String partNumber, String unitOfMeasure, String item, String instanceId)
@@ -187,5 +189,14 @@ public class Part
 	@XmlAttribute(name="partNumberVisibleForPage")
 	public void setPartNumberVisibleForPage(String partNumberVisibleForPage) {
 		this.partNumberVisibleForPage = partNumberVisibleForPage;
+	}
+
+	public List<Attachment> getAttachments() {
+		return attachments;
+	}
+
+	@XmlElement(name="Attachment")
+	public void setAttachments(List<Attachment> attachments) {
+		this.attachments = attachments;
 	}
 }
