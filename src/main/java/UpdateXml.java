@@ -49,10 +49,12 @@ public class UpdateXml {
     }
 
     // Removes ALL Parts from EVERY Page under current Chapter
-    private static void removePartsRecursively(Chapter c) {
+    private static void removePartsRecursively(Chapter c, String tenantKey) {
         // Check if Chapter has Pages
         if (c.getPages() != null) {
             for (Page pg : c.getPages()) {
+                // Update Page HashKey
+                pg.setHashKey(tenantKey + "-" + pg.getHashKey());
                 pg.getParts().removeAll(pg.getParts());
             }
         }
@@ -60,21 +62,23 @@ public class UpdateXml {
         // Check if Chapter has child Chapters
         if (c.getChapters() != null) {
             for (Chapter c1 : c.getChapters()) {
-                removePartsRecursively(c1);
+                removePartsRecursively(c1, tenantKey);
             }
         }
     }
 
     // Removes ALL Parts from EVERY Page in Media
-    void removePartsFromMedia(Media m) {
+    void removePartsFromMedia(Media m, String tenantKey) {
         // Check for root-level Chapters
         for (Chapter c : m.getChapters()) {
-            removePartsRecursively(c);
+            removePartsRecursively(c, tenantKey);
         }
 
         // Check for Book-level Pages
         if (m.getPages() != null) {
             for (Page pg : m.getPages()) {
+                // Update Page HashKey
+                pg.setHashKey(tenantKey + "-" + pg.getHashKey());
                 pg.getParts().removeAll(pg.getParts());
             }
         }
@@ -100,7 +104,7 @@ public class UpdateXml {
     }
 
     // Update Part Supplier Keys
-    private void updatePartSuppliers(Media m, String supplierKey) {
+    private void updatePartSuppliers(Media m, String supplierKey, String tenantKey) {
         // Check for root-level Chapters
         for (Chapter c : m.getChapters()) {
             updatePartSuppliersRecursively(c, supplierKey);
@@ -109,6 +113,8 @@ public class UpdateXml {
         // Check for Book-level Pages
         if (m.getPages() != null) {
             for (Page pg : m.getPages()) {
+                // Update Page HashKey
+                pg.setHashKey(tenantKey + "-" + pg.getHashKey());
                 for (Part prt : pg.getParts()) {
                     prt.setSupplierKey(supplierKey);
                 }
@@ -117,7 +123,10 @@ public class UpdateXml {
     }
 
     // Updates Part Supplier Keys
-    void updatePartSuppliers(Page pg, String supplierKey) {
+    void updatePartSuppliers(Page pg, String supplierKey, String tenantKey) {
+        // Update Page HashKey
+        pg.setHashKey(tenantKey + "-" + pg.getHashKey());
+
         // Check for Parts
         for (Part prt : pg.getParts()) {
             prt.setSupplierKey(supplierKey);
@@ -222,8 +231,8 @@ public class UpdateXml {
         UpdateXml test = new UpdateXml();
         Media m = test.xmlFileToMediaObject(XML_PATH + "test-book.xml");
         m.setXmlns("http://digabit.com/documoto/media/1.4");
-        //test.removePartsFromMediaRecursively(m);
-        test.updatePartSuppliers(m, "CALLIFTEST");
+        test.removePartsFromMedia(m, "CALLIFTEST");
+        test.updatePartSuppliers(m, "CALLIFTEST", "CALLIFTEST");
 
         if (test.writeToFileWithXmlTransformer(m, XML_PATH + "out.xml")) {
             System.out.println("Wrote XML");

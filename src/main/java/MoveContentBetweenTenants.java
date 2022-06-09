@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -29,7 +30,7 @@ public class MoveContentBetweenTenants {
         pg.setXmlns(PAGE_XMLNS);
         pg.setTenantKey(newTenantKey);
 
-        partUpdater.updatePartSuppliers(pg, newSupplierKey);
+        partUpdater.updatePartSuppliers(pg, newSupplierKey, newTenantKey);
         partUpdater.updateAttachmentUser(pg, newAttachmentUser);
 
         if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
@@ -73,7 +74,7 @@ public class MoveContentBetweenTenants {
         m.setXmlns(MEDIA_XMLNS);
         m.setTenantKey(newTenantKey);
 
-        partDeletor.removePartsFromMedia(m);
+        partDeletor.removePartsFromMedia(m, newTenantKey);
         partDeletor.updateAttachmentUser(m, newAttachmentUser);
 
         if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
@@ -81,6 +82,55 @@ public class MoveContentBetweenTenants {
         } else {
             System.out.println("Failed to write XML");
         }
+    }
+
+    // Updates include: TenantKeys/SupplierKeys/Usernames/HashKeys
+    private void updateDirectoryOfMdzs(String mdzsLocation, String newSaveLocation) {
+        File folder = new File(mdzsLocation);
+        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
+            // Only look at regular files and .mdz extension
+            if (!fileEntry.isDirectory() && !fileEntry.isHidden() && fileEntry.getName().substring(fileEntry.getName().lastIndexOf(".") + 1).equalsIgnoreCase("mdz")) {
+                System.out.println("Working on MDZ: " + fileEntry.getName());
+
+                String mdzFolder = fileEntry.getName().substring(0, fileEntry.getName().lastIndexOf("."));
+                // Unzip MDZ file
+                try {
+                    ZipUtil.unzip(fileEntry.getAbsolutePath(), newSaveLocation + mdzFolder);
+                } catch (IOException e) {
+                    System.out.println(String.format("Failed to unzip file: %s, reason: %s", fileEntry.getName(), e.getMessage()));
+                }
+
+                // Look for all PLZs to unzip
+                for (final File mdzFile : Objects.requireNonNull(new File(newSaveLocation + mdzFolder).listFiles())) {
+                    if (!mdzFile.isDirectory() && !mdzFile.isHidden() && mdzFile.getName().substring(mdzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("plz")) {
+                        System.out.println("Working on PLZ: " + mdzFile.getName());
+                        String plzFolder = mdzFile.getName().substring(0, mdzFile.getName().lastIndexOf("."));
+                        try {
+                            // Deletes PLZ once unzipped
+                            mdzFile.deleteOnExit();
+                            ZipUtil.unzip(mdzFile.getAbsolutePath(), newSaveLocation + mdzFolder + File.separator + plzFolder + File.separator);
+
+                            // Look for Page XML to update
+                            for (final File plzFile : Objects.requireNonNull(new File(newSaveLocation + mdzFolder + File.separator + plzFolder + File.separator).listFiles())) {
+                                if (!plzFile.isDirectory() && !plzFile.isHidden() && plzFile.getName().substring(plzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("xml")) {
+                                    System.out.println("Updating PLZ XML: " + plzFile);
+                                    // Update Page XML
+                                    updatePartSuppliersAndAttachmentUsers(plzFile.getAbsolutePath(), plzFile.getAbsolutePath());
+                                }
+                            }
+
+                        } catch (IOException e) {
+                            System.out.println(String.format("Failed to unzip file: %s, reason: %s", mdzFile.getName(), e.getMessage()));
+                        }
+                    } else if (!mdzFile.isDirectory() && !mdzFile.isHidden() && mdzFile.getName().substring(mdzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("xml")) {
+                        System.out.println("Updating Media XML: " + mdzFile);
+                        // Update Media XML
+                        deletePartsAndUpdateAttachmentsFromMediaXml(mdzFile.getAbsolutePath(), mdzFile.getAbsolutePath());
+                    }
+                }
+            }
+        }
+        System.out.println("MDZ Update Complete!");
     }
 
     // Deletes every Part from every Media XML in directory
@@ -112,16 +162,20 @@ public class MoveContentBetweenTenants {
 
     public static void main(String[] args) {
         String XML_PATH = "src/main/xmls/";
+        String MDZ_PATH = "src/main/mdzs/";
 
         MoveContentBetweenTenants test = new MoveContentBetweenTenants("D1", "DD11", "test@documototesting.com");
         // Delete Parts from 1 Book
-        //test.deletePartsFromMediaXml(RESOURCE_PATH + MEDIA_XSD_VERSION, XML_PATH + "large-book.xml", XML_PATH + "out.xml");
+        //test.deletePartsAndUpdateAttachmentsFromMediaXml(XML_PATH + "large-book.xml", XML_PATH + "out.xml");
         // Delete Parts from directory of Media XMLs
-        test.deletePartsAndUpdateAttachmentsFromMediaXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
+        //test.deletePartsAndUpdateAttachmentsFromMediaXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
 
         // Update Part Suppliers for 1 Page
-        //test.updatePartSupplierKeys("DOCUMOTO-TEST", XML_PATH + "page.xml", XML_PATH + "updated/page_editted.xml");
+        //test.updatePartSuppliersAndAttachmentUsers(XML_PATH + "page.xml", XML_PATH + "updated/page_editted.xml");
         // Update Part Suppliers for directory of Page XMLs
-        test.updatePartsAndAttachmentsFromPageXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
+        //test.updatePartsAndAttachmentsFromPageXmlsInDirectory(XML_PATH, XML_PATH + "updated/");
+
+        // Update ALL MDZs in directory
+        test.updateDirectoryOfMdzs(MDZ_PATH, MDZ_PATH + "updated/");
     }
 }
