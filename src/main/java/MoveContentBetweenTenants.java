@@ -104,7 +104,9 @@ public class MoveContentBetweenTenants {
                 for (final File mdzFile : Objects.requireNonNull(new File(newSaveLocation + mdzFolder).listFiles())) {
                     if (!mdzFile.isDirectory() && !mdzFile.isHidden() && mdzFile.getName().substring(mdzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("plz")) {
                         System.out.println("Working on PLZ: " + mdzFile.getName());
+
                         String plzFolder = mdzFile.getName().substring(0, mdzFile.getName().lastIndexOf("."));
+                        // Unzip PLZ file
                         try {
                             // Deletes PLZ once unzipped
                             mdzFile.deleteOnExit();
@@ -113,7 +115,6 @@ public class MoveContentBetweenTenants {
                             // Look for Page XML to update
                             for (final File plzFile : Objects.requireNonNull(new File(newSaveLocation + mdzFolder + File.separator + plzFolder + File.separator).listFiles())) {
                                 if (!plzFile.isDirectory() && !plzFile.isHidden() && plzFile.getName().substring(plzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("xml")) {
-                                    System.out.println("Updating PLZ XML: " + plzFile);
                                     // Update Page XML
                                     updatePartSuppliersAndAttachmentUsers(plzFile.getAbsolutePath(), plzFile.getAbsolutePath());
                                 }
@@ -123,7 +124,6 @@ public class MoveContentBetweenTenants {
                             System.out.println(String.format("Failed to unzip file: %s, reason: %s", mdzFile.getName(), e.getMessage()));
                         }
                     } else if (!mdzFile.isDirectory() && !mdzFile.isHidden() && mdzFile.getName().substring(mdzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("xml")) {
-                        System.out.println("Updating Media XML: " + mdzFile);
                         // Update Media XML
                         deletePartsAndUpdateAttachmentsFromMediaXml(mdzFile.getAbsolutePath(), mdzFile.getAbsolutePath());
                     }
