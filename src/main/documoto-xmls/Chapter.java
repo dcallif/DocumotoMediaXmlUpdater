@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.util.ArrayList;
 import java.util.List;
 
-@XmlType(name="",propOrder={"pageFile", "translations", "tags", "pages", "chapters"})
+@XmlType(name="",propOrder={"pageFile", "translations", "attachments", "tags", "pages", "chapters"})
 @XmlRootElement(name="Chapter")
 public class Chapter
 {
@@ -13,6 +13,17 @@ public class Chapter
 	private List<Chapter> chapters = new ArrayList<Chapter>();
 	private List<Translation> translations = new ArrayList<Translation>();
 	private List<Tag> tags = new ArrayList<Tag>();
+
+	public List<Attachment> getAttachments() {
+		return attachments;
+	}
+
+	@XmlElement(name="Attachment")
+	public void setAttachments(List<Attachment> attachments) {
+		this.attachments = attachments;
+	}
+
+	private List<Attachment> attachments;
 	private String pageFile;
 
 	public List<Page> getPages() {
