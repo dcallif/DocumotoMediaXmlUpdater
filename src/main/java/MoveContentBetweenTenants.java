@@ -9,7 +9,6 @@ public class MoveContentBetweenTenants {
     private String newAttachmentUser;
 
     private static final String RESOURCE_PATH = "src/main/resources/";
-    private static final String XML_PATH = "src/main/xmls/";
 
     private static final String MEDIA_XSD_VERSION = "documoto_media1.4.xsd";
     private static final String MEDIA_XMLNS = "http://digabit.com/documoto/media/1.4";
@@ -112,6 +111,8 @@ public class MoveContentBetweenTenants {
     }
 
     public static void main(String[] args) {
+        String XML_PATH = "src/main/xmls/";
+
         MoveContentBetweenTenants test = new MoveContentBetweenTenants("D1", "DD11", "test@documototesting.com");
         // Delete Parts from 1 Book
         //test.deletePartsFromMediaXml(RESOURCE_PATH + MEDIA_XSD_VERSION, XML_PATH + "large-book.xml", XML_PATH + "out.xml");

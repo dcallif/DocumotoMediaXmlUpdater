@@ -17,8 +17,6 @@ import java.io.StringReader;
 import java.io.StringWriter;
 
 public class UpdateXml {
-    private static final String XML_PATH = "src/main/xmls/";
-
     // Writes sent in XML object to XML file pretty printed
     <Type> boolean writeToFileWithXmlTransformer(Type instance, String fullFileNamePath) {
         boolean isSaved = false;
@@ -219,6 +217,8 @@ public class UpdateXml {
     }
 
     public static void main(String[] args) {
+        String XML_PATH = "src/main/xmls/";
+        
         UpdateXml test = new UpdateXml();
         Media m = test.xmlFileToMediaObject(XML_PATH + "test-book.xml");
         m.setXmlns("http://digabit.com/documoto/media/1.4");

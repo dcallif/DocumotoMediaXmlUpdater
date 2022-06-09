@@ -13,9 +13,6 @@ import org.xml.sax.SAXException;
  * @author Daniel
  */
 public class ValidateXml {
-    private static final String RESOURCE_PATH = "src/main/resources/";
-    private static final String XML_PATH = "src/main/xmls/";
-
     boolean isXmlValid(String xsdLocation, String xmlLocation) {
         File schemaFile = new File(xsdLocation);
         File xmlFile = new File(xmlLocation);
@@ -38,6 +35,9 @@ public class ValidateXml {
     }
 
     public static void main(String[] args) {
+        String RESOURCE_PATH = "src/main/resources/";
+        String XML_PATH = "src/main/xmls/";
+
         ValidateXml validate = new ValidateXml();
         validate.isXmlValid( RESOURCE_PATH + "documoto_media1.4.xsd", XML_PATH + "test-book.xml");
         validate.isXmlValid( RESOURCE_PATH + "documoto_partslist1.6.xsd", XML_PATH + "page.xml");
