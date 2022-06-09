@@ -22,7 +22,7 @@ public class MoveContentBetweenTenants {
         this.newAttachmentUser = attachmentUser;
     }
 
-    // Updates Part SupplierKeys
+    // Updates Part SupplierKeys for passed in Page
     private void updatePartSuppliersAndAttachmentUsers(String xmlLocation, String newXmlLocation) {
         UpdateXml partUpdater = new UpdateXml();
         // Convert XML file to Page Object
@@ -34,9 +34,9 @@ public class MoveContentBetweenTenants {
         partUpdater.updateAttachmentUser(pg, newAttachmentUser);
 
         if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
-            System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+            System.out.println("Wrote updated Page XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
         } else {
-            System.out.println("Failed to write XML:" + newXmlLocation.lastIndexOf(File.separator) + 1);
+            System.out.println("Failed to write Page XML:" + newXmlLocation.lastIndexOf(File.separator) + 1);
         }
     }
 
@@ -78,9 +78,9 @@ public class MoveContentBetweenTenants {
         partDeletor.updateAttachmentUser(m, newAttachmentUser);
 
         if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
-            System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+            System.out.println("Wrote updated Media XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
         } else {
-            System.out.println("Failed to write XML");
+            System.out.println("Failed to write Media XML");
         }
     }
 
@@ -109,7 +109,7 @@ public class MoveContentBetweenTenants {
                         // Unzip PLZ file
                         try {
                             // Deletes PLZ once unzipped
-                            mdzFile.deleteOnExit();
+                            //mdzFile.deleteOnExit();
                             ZipUtil.unzip(mdzFile.getAbsolutePath(), newSaveLocation + mdzFolder + File.separator + plzFolder + File.separator);
 
                             // Look for Page XML to update
@@ -119,6 +119,8 @@ public class MoveContentBetweenTenants {
                                     updatePartSuppliersAndAttachmentUsers(plzFile.getAbsolutePath(), plzFile.getAbsolutePath());
                                 }
                             }
+                            // Zip Page folder now that updates are complete
+                            ZipUtil.zipDirectory(mdzFile.getAbsolutePath(), newSaveLocation + mdzFolder + File.separator + plzFolder);
 
                         } catch (IOException e) {
                             System.out.println(String.format("Failed to unzip file: %s, reason: %s", mdzFile.getName(), e.getMessage()));
@@ -127,6 +129,12 @@ public class MoveContentBetweenTenants {
                         // Update Media XML
                         deletePartsAndUpdateAttachmentsFromMediaXml(mdzFile.getAbsolutePath(), mdzFile.getAbsolutePath());
                     }
+                }
+                // Zip Media folder now that updates are complete
+                try {
+                    ZipUtil.zipDirectory(newSaveLocation + mdzFolder + ".mdz", newSaveLocation + mdzFolder);
+                } catch (IOException e) {
+                    System.out.println(String.format("Failed to Zip MDZ: %s, reason: %s", fileEntry.getName(), e.getMessage()));
                 }
             }
         }

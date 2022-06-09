@@ -16,6 +16,9 @@ import java.io.File;
 import java.io.StringReader;
 import java.io.StringWriter;
 
+/**
+ * Contains a variety of methods to perform XML updates
+ */
 public class UpdateXml {
     // Writes sent in XML object to XML file pretty printed
     <Type> boolean writeToFileWithXmlTransformer(Type instance, String fullFileNamePath) {
