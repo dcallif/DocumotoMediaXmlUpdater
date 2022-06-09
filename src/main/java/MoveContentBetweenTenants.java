@@ -29,6 +29,7 @@ public class MoveContentBetweenTenants {
         Page pg = partUpdater.xmlFileToPageObject(xmlLocation);
         pg.setXmlns(PAGE_XMLNS);
         pg.setTenantKey(newTenantKey);
+
         partUpdater.updatePartSuppliers(pg, newSupplierKey);
         partUpdater.updateAttachmentUser(pg, newAttachmentUser);
 
@@ -70,10 +71,11 @@ public class MoveContentBetweenTenants {
         UpdateXml partDeletor = new UpdateXml();
         // Convert XML file to Media Object
         Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
-        partDeletor.updateAttachmentUser(m, newAttachmentUser);
         m.setXmlns(MEDIA_XMLNS);
         m.setTenantKey(newTenantKey);
+
         partDeletor.removePartsFromMedia(m);
+        partDeletor.updateAttachmentUser(m, newAttachmentUser);
 
         if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
             System.out.println("Wrote updated XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
