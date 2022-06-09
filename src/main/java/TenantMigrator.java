@@ -16,6 +16,8 @@ public class TenantMigrator {
     private static final String PAGE_XSD_VERSION = "documoto_partslist1.6.xsd";
     private static final String PAGE_XMLNS = "http://digabit.com/documoto/partslist/1.6";
 
+    private static ValidateXml validateXml = new ValidateXml();
+
     private TenantMigrator(String tenantKey, String supplierKey, String attachmentUser) {
         this.newTenantKey = tenantKey;
         this.newSupplierKey = supplierKey;
@@ -25,18 +27,24 @@ public class TenantMigrator {
     // Updates Part SupplierKeys for passed in Page
     private void updatePartSuppliersAndAttachmentUsers(String xmlLocation, String newXmlLocation) {
         UpdateXml partUpdater = new UpdateXml();
-        // Convert XML file to Page Object
-        Page pg = partUpdater.xmlFileToPageObject(xmlLocation);
-        pg.setXmlns(PAGE_XMLNS);
-        pg.setTenantKey(newTenantKey);
 
-        partUpdater.updatePartSuppliers(pg, newSupplierKey, newTenantKey);
-        partUpdater.updateAttachmentUser(pg, newAttachmentUser);
+        //Check Page XML is valid
+        if (validateXml.isXmlValid(RESOURCE_PATH + PAGE_XSD_VERSION, xmlLocation)) {
+            // Convert XML file to Page Object
+            Page pg = partUpdater.xmlFileToPageObject(xmlLocation);
+            pg.setXmlns(PAGE_XMLNS);
+            pg.setTenantKey(newTenantKey);
 
-        if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
-            System.out.println("Wrote updated Page XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+            partUpdater.updatePartSuppliers(pg, newSupplierKey, newTenantKey);
+            partUpdater.updateAttachmentUser(pg, newAttachmentUser);
+
+            if (partUpdater.writeToFileWithXmlTransformer(pg, newXmlLocation)) {
+                System.out.println("Wrote updated Page XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+            } else {
+                System.out.println("Failed to write Page XML:" + newXmlLocation.lastIndexOf(File.separator) + 1);
+            }
         } else {
-            System.out.println("Failed to write Page XML:" + newXmlLocation.lastIndexOf(File.separator) + 1);
+            System.out.println("File is not a valid Page XML...ignoring for Page Update.");
         }
     }
 
@@ -69,18 +77,24 @@ public class TenantMigrator {
     // Deletes every Part from XML
     private void deletePartsAndUpdateAttachmentsFromMediaXml(String xmlLocation, String newXmlLocation) {
         UpdateXml partDeletor = new UpdateXml();
-        // Convert XML file to Media Object
-        Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
-        m.setXmlns(MEDIA_XMLNS);
-        m.setTenantKey(newTenantKey);
 
-        partDeletor.removePartsFromMedia(m, newTenantKey);
-        partDeletor.updateAttachmentUser(m, newAttachmentUser);
+        // Check if Media is valid
+        if (validateXml.isXmlValid(RESOURCE_PATH + MEDIA_XSD_VERSION, xmlLocation)) {
+            // Convert XML file to Media Object
+            Media m = partDeletor.xmlFileToMediaObject(xmlLocation);
+            m.setXmlns(MEDIA_XMLNS);
+            m.setTenantKey(newTenantKey);
 
-        if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
-            System.out.println("Wrote updated Media XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+            partDeletor.removePartsFromMedia(m, newTenantKey);
+            partDeletor.updateAttachmentUser(m, newAttachmentUser);
+
+            if (partDeletor.writeToFileWithXmlTransformer(m, newXmlLocation)) {
+                System.out.println("Wrote updated Media XML: " + newXmlLocation.substring(newXmlLocation.lastIndexOf(File.separator) + 1));
+            } else {
+                System.out.println("Failed to write Media XML");
+            }
         } else {
-            System.out.println("Failed to write Media XML");
+            System.out.println("File is not a valid Media XML...ignoring for Page Update.");
         }
     }
 
@@ -115,8 +129,13 @@ public class TenantMigrator {
                             // Look for Page XML to update
                             for (final File plzFile : Objects.requireNonNull(new File(newSaveLocation + mdzFolder + File.separator + plzFolder + File.separator).listFiles())) {
                                 if (!plzFile.isDirectory() && !plzFile.isHidden() && plzFile.getName().substring(plzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("xml")) {
-                                    // Update Page XML
-                                    updatePartSuppliersAndAttachmentUsers(plzFile.getAbsolutePath(), plzFile.getAbsolutePath());
+                                    // Check if XML is valid
+                                    if (validateXml.isXmlValid(RESOURCE_PATH + PAGE_XSD_VERSION, plzFile.getAbsolutePath())) {
+                                        // Update Page XML
+                                        updatePartSuppliersAndAttachmentUsers(plzFile.getAbsolutePath(), plzFile.getAbsolutePath());
+                                    } else {
+                                        System.out.println(String.format("File %s, is not a valid Page XML...ignoring for Page Update.", plzFile.getName()));
+                                    }
                                 }
                             }
                             // Zip Page folder now that updates are complete
@@ -126,8 +145,13 @@ public class TenantMigrator {
                             System.out.println(String.format("Failed to unzip file: %s, reason: %s", mdzFile.getName(), e.getMessage()));
                         }
                     } else if (!mdzFile.isDirectory() && !mdzFile.isHidden() && mdzFile.getName().substring(mdzFile.getName().lastIndexOf(".") + 1).equalsIgnoreCase("xml")) {
-                        // Update Media XML
-                        deletePartsAndUpdateAttachmentsFromMediaXml(mdzFile.getAbsolutePath(), mdzFile.getAbsolutePath());
+                        // Check if XML is valid
+                        if (validateXml.isXmlValid(RESOURCE_PATH + MEDIA_XSD_VERSION, mdzFile.getAbsolutePath())) {
+                            // Update Media XML
+                            deletePartsAndUpdateAttachmentsFromMediaXml(mdzFile.getAbsolutePath(), mdzFile.getAbsolutePath());
+                        } else {
+                            System.out.println(String.format("File %s, is not a valid Media XML...ignoring for Media Update.", mdzFile.getName()));
+                        }
                     }
                 }
                 // Zip Media folder now that updates are complete
